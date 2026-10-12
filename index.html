@@ -155,7 +155,7 @@ svg .jumps{display:none;}
       </div>
     </div>
     <div class="card"><h2>Hinweise</h2>
-      <p class="empty" style="margin:0">Ein Klick auf eine Mannschaft hebt ihren ganzen Weg hervor. Über einem Kästchen zeigt die Maus Termin und Spielort. Die Daten kommen automatisch alle 30 Minuten vom WTTV.</p>
+      <p class="empty" style="margin:0">Ein Klick auf eine Mannschaft hebt ihren ganzen Weg hervor. Über einem Kästchen zeigt die Maus Termin und Spielort. Die Daten kommen automatisch zweimal täglich vom WTTV (morgens und abends).</p>
     </div>
   </div>
 </section>
@@ -452,7 +452,12 @@ function setView(v){view=v;vB.setAttribute("aria-pressed",String(v==="baum"));vS
 vB.addEventListener("click",()=>setView("baum")); vS.addEventListener("click",()=>setView("spiele"));
 const bFit=document.getElementById("bFit"), b100=document.getElementById("b100");
 let fit=true;
-function applyZoom(){const avail=scroll.clientWidth||SHEET_W;sheet.style.zoom=fit?Math.min(1,avail/SHEET_W):1;bFit.setAttribute("aria-pressed",fit);b100.setAttribute("aria-pressed",!fit);}
+function applyZoom(){
+  const SHEET_TOTAL_H=76+SHEET_H;                       // Kopfband + Blatt
+  const availW=scroll.clientWidth||SHEET_W;
+  const top=scroll.getBoundingClientRect().top+window.scrollY;
+  const availH=Math.max(300,window.innerHeight-Math.max(0,top-window.scrollY)-16);
+  sheet.style.zoom=fit?Math.min(1,availW/SHEET_W,availH/SHEET_TOTAL_H):1;bFit.setAttribute("aria-pressed",fit);b100.setAttribute("aria-pressed",!fit);}
 bFit.addEventListener("click",()=>{fit=true;applyZoom();});
 b100.addEventListener("click",()=>{fit=false;applyZoom();});
 window.addEventListener("resize",()=>{if(fit)applyZoom();});
@@ -478,7 +483,7 @@ async function loadBewerb(id,keepFocus){
   const start=(location.hash||"").slice(1);
   await loadBewerb(CFG.bewerbe.some(b=>b.id===start)?start:CFG.bewerbe[0].id);
   applyZoom();
-  setInterval(()=>{if(!document.hidden)loadBewerb(cur.id,true);},5*60*1000);
+  setInterval(()=>{if(!document.hidden)loadBewerb(cur.id,true);},30*60*1000);
 })();
 })();
 </script>
