@@ -1,10 +1,11 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-12T22:37:06Z",
+ "stand": "2026-10-12T23:11:22Z",
  "bewerb": {
   "id": "damen",
   "name": "Damen",
-  "leagueId": 8976
+  "leagueId": 8976,
+  "farbe": "#A6A6A6"
  },
  "mannschaften": [
   {
