@@ -1,0 +1,13 @@
+{
+  "saison": "2026/27",
+  "bewerbe": [
+    {"id": "a",     "name": "Bewerb A",   "leagueId": 8978},
+    {"id": "b",     "name": "Bewerb B",   "leagueId": 8979},
+    {"id": "c",     "name": "Bewerb C",   "leagueId": 8980},
+    {"id": "d",     "name": "Bewerb D",   "leagueId": 8981},
+    {"id": "e",     "name": "Bewerb E",   "leagueId": 8982},
+    {"id": "damen", "name": "Damen",      "leagueId": 8976},
+    {"id": "offen", "name": "Offen",      "leagueId": 8977},
+    {"id": "senb",  "name": "Senioren B", "leagueId": 8983}
+  ]
+}
