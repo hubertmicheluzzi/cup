@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<games_list>
+ <league_id>8978</league_id>
+ <team_id />
+ <period_id />
+ <round_id />
+ <game>
+  <game_id>455159</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>13.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55693</team_home_id>
+  <team_home_code>HAK1</team_home_code>
+  <team_home_short_name>Hakoah 1</team_home_short_name>
+  <team_away_id>55290</team_away_id>
+  <team_away_code>LENZ2</team_away_code>
+  <team_away_short_name>Langenzersdorf 2</team_away_short_name>
+  <club_home_id>418</club_home_id>
+  <club_home>SC Hakoah</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>224</club_away_id>
+  <club_away>ATUS Langenzersdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Hakoah</location>
+  <latitude>48.207277</latitude>
+  <longitude>16.428552</longitude>
+  <address>
+   <street>Wehlistr. 326</street>
+   <postal_code>1020</postal_code>
+   <city>Wien</city>
+   <latitude>48.207277</latitude>
+   <longitude>16.428552</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455160</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>13.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55877</team_home_id>
+  <team_home_code>LSV1</team_home_code>
+  <team_home_short_name>Lehrersportverein 1</team_home_short_name>
+  <team_away_id>55909</team_away_id>
+  <team_away_code>SGWF1</team_away_code>
+  <team_away_short_name>SPG Wohnpark Alt-Erlaa - Future 1</team_away_short_name>
+  <club_home_id>425</club_home_id>
+  <club_home>Lehrersportverein</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1354</club_away_id>
+  <club_away>SPG Wohnpark Alt-Erlaa - Future</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Lehrersportverein neu</location>
+  <latitude>48.195896</latitude>
+  <longitude>16.315581</longitude>
+  <address>
+   <street>Nobilegasse 25</street>
+   <postal_code>1150</postal_code>
+   <city>Wien</city>
+   <latitude>48.195896</latitude>
+   <longitude>16.315581</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455162</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>13.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55252</team_home_id>
+  <team_home_code>NFS1</team_home_code>
+  <team_home_short_name>Naturfreunde Stadlau 1</team_home_short_name>
+  <team_away_id>55901</team_away_id>
+  <team_away_code>SGPF1</team_away_code>
+  <team_away_short_name>SG Post-Floridsdorf 1</team_away_short_name>
+  <club_home_id>427</club_home_id>
+  <club_home>TTK Naturfreunde Stadlau</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1351</club_away_id>
+  <club_away>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Naturfreunde Stadlau</location>
+  <latitude>48.229447</latitude>
+  <longitude>16.450807</longitude>
+  <address>
+   <street>Erzherzog-Karl-Straße 108</street>
+   <postal_code>1220</postal_code>
+   <city>Wien</city>
+   <latitude>48.229447</latitude>
+   <longitude>16.450807</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455161</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>15.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55832</team_home_id>
+  <team_home_code>SKFL1</team_home_code>
+  <team_home_short_name>Sportklub / Flötzersteig 1</team_home_short_name>
+  <team_away_id>55289</team_away_id>
+  <team_away_code>LENZ1</team_away_code>
+  <team_away_short_name>Langenzersdorf 1</team_away_short_name>
+  <club_home_id>1108</club_home_id>
+  <club_home>SG Sportklub - Flötzersteig</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>224</club_away_id>
+  <club_away>ATUS Langenzersdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Berufsschule</location>
+  <latitude>48.18257</latitude>
+  <longitude>16.338125</longitude>
+  <address>
+   <street>Längenfeldgasse 13-15</street>
+   <postal_code>1120</postal_code>
+   <city>Wien</city>
+   <latitude>48.18257</latitude>
+   <longitude>16.338125</longitude>
+  </address>
+ </game>
+</games_list>

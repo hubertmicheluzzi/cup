@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<games_list>
+ <league_id>8977</league_id>
+ <team_id />
+ <period_id />
+ <round_id />
+ <game>
+  <game_id>455672</game_id>
+  <played>1</played>
+  <confirmed>1</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>06.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55297</team_home_id>
+  <team_home_code>LENZ1</team_home_code>
+  <team_home_short_name>Langenzersdorf 1</team_home_short_name>
+  <team_away_id>55910</team_away_id>
+  <team_away_code>OLYM1</team_away_code>
+  <team_away_short_name>Olympic 1</team_away_short_name>
+  <club_home_id>224</club_home_id>
+  <club_home>ATUS Langenzersdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>199</club_away_id>
+  <club_away>ASVÖ TTC Olympic Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>5</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Olympic Oskar-Spielg</location>
+  <latitude>48.257571</latitude>
+  <longitude>16.363567</longitude>
+  <address>
+   <street>Oskar-Spielg.</street>
+   <postal_code>1190</postal_code>
+   <city>Wien</city>
+   <latitude>48.257571</latitude>
+   <longitude>16.363567</longitude>
+  </address>
+  </game>
+ <game>
+  <game_id>455671</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>13.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55515</team_home_id>
+  <team_home_code>EDEN1</team_home_code>
+  <team_home_short_name>TTK Eden 1</team_home_short_name>
+  <team_away_id>55202</team_away_id>
+  <team_away_code>KONT1</team_away_code>
+  <team_away_short_name>Kontakt 1</team_away_short_name>
+  <club_home_id>413</club_home_id>
+  <club_home>TTK Eden</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>148</club_away_id>
+  <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>TTK Eden</location>
+  <latitude>48.248976</latitude>
+  <longitude>16.415176</longitude>
+  <address>
+   <street>An der Schanze 7</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.248976</latitude>
+   <longitude>16.415176</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455673</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>15.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55750</team_home_id>
+  <team_home_code>SKFL1</team_home_code>
+  <team_home_short_name>Sportklub / Flötzersteig 1</team_home_short_name>
+  <team_away_id>55692</team_away_id>
+  <team_away_code>HAK1</team_away_code>
+  <team_away_short_name>Hakoah 1</team_away_short_name>
+  <club_home_id>1108</club_home_id>
+  <club_home>SG Sportklub - Flötzersteig</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>418</club_away_id>
+  <club_away>SC Hakoah</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Berufsschule</location>
+  <latitude>48.18257</latitude>
+  <longitude>16.338125</longitude>
+  <address>
+   <street>Längenfeldgasse 13-15</street>
+   <postal_code>1120</postal_code>
+   <city>Wien</city>
+   <latitude>48.18257</latitude>
+   <longitude>16.338125</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455674</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>16.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55298</team_home_id>
+  <team_home_code>LENZ2</team_home_code>
+  <team_home_short_name>Langenzersdorf 2</team_home_short_name>
+  <team_away_id>55878</team_away_id>
+  <team_away_code>LSV1</team_away_code>
+  <team_away_short_name>Lehrersportverein 1</team_away_short_name>
+  <club_home_id>224</club_home_id>
+  <club_home>ATUS Langenzersdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>425</club_away_id>
+  <club_away>Lehrersportverein</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>NMS Langenzersdorf</location>
+  <latitude>48.308377</latitude>
+  <longitude>16.355333</longitude>
+  <address>
+   <street>Klosterneuburgerstraße 12</street>
+   <postal_code>2103</postal_code>
+   <city>Langenzersdorf</city>
+   <latitude>48.308377</latitude>
+   <longitude>16.355333</longitude>
+  </address>
+ </game>
+</games_list>

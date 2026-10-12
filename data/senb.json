@@ -1,0 +1,171 @@
+{
+ "format": "tt-cup-wttv/1",
+ "stand": "2026-10-12T22:37:06Z",
+ "bewerb": {
+  "id": "senb",
+  "name": "Senioren B",
+  "leagueId": 8983
+ },
+ "mannschaften": [
+  {
+   "id": 55244,
+   "code": "DOEB1",
+   "verein": "Union Döbling"
+  },
+  {
+   "id": 55698,
+   "code": "HAK1",
+   "verein": "SC Hakoah"
+  },
+  {
+   "id": 55299,
+   "code": "LENZ1",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55300,
+   "code": "LENZ2",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55870,
+   "code": "LSV1",
+   "verein": "Lehrersportverein"
+  },
+  {
+   "id": 55660,
+   "code": "SGPF1",
+   "verein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf"
+  },
+  {
+   "id": 55661,
+   "code": "SGPF2",
+   "verein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf"
+  },
+  {
+   "id": 55711,
+   "code": "SGPF3",
+   "verein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf"
+  },
+  {
+   "id": 55749,
+   "code": "SKFL1",
+   "verein": "SG Sportklub - Flötzersteig"
+  },
+  {
+   "id": 55476,
+   "code": "TYR1",
+   "verein": "UKJ Tyrolia"
+  }
+ ],
+ "spiele": [
+  {
+   "gameId": 455599,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.09.2026",
+   "zeit": "19:00",
+   "heim": "HAK1",
+   "gast": "DOEB1",
+   "heimName": "Hakoah 1",
+   "gastName": "Union Döbling 1",
+   "heimVerein": "SC Hakoah",
+   "gastVerein": "Union Döbling",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 1
+  },
+  {
+   "gameId": 455600,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "18.09.2026",
+   "zeit": "19:00",
+   "heim": "LSV1",
+   "gast": "LENZ2",
+   "heimName": "Lehrersportverein 1",
+   "gastName": "Langenzersdorf 2",
+   "heimVerein": "Lehrersportverein",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 5,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455609,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "12.10.2026",
+   "zeit": "19:00",
+   "heim": "HAK1",
+   "gast": "SKFL1",
+   "heimName": "Hakoah 1",
+   "gastName": "Sportklub / Flötzersteig 1",
+   "heimVerein": "SC Hakoah",
+   "gastVerein": "SG Sportklub - Flötzersteig",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455607,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "13.10.2026",
+   "zeit": "19:00",
+   "heim": "SGPF3",
+   "gast": "LENZ1",
+   "heimName": "SG Post-Floridsdorf 3",
+   "gastName": "Langenzersdorf 1",
+   "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455608,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.10.2026",
+   "zeit": "19:00",
+   "heim": "SGPF1",
+   "gast": "LSV1",
+   "heimName": "SG Post-Floridsdorf 1",
+   "gastName": "Lehrersportverein 1",
+   "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gastVerein": "Lehrersportverein",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455610,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.10.2026",
+   "zeit": "19:00",
+   "heim": "SGPF2",
+   "gast": "TYR1",
+   "heimName": "SG Post-Floridsdorf 2",
+   "gastName": "UKJ Tyrolia 1",
+   "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gastVerein": "UKJ Tyrolia",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  }
+ ]
+}

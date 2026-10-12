@@ -1,0 +1,340 @@
+{
+ "format": "tt-cup-wttv/1",
+ "stand": "2026-10-12T22:37:06Z",
+ "bewerb": {
+  "id": "c",
+  "name": "Bewerb C",
+  "leagueId": 8980
+ },
+ "mannschaften": [
+  {
+   "id": 55245,
+   "code": "DOEB1",
+   "verein": "Union Döbling"
+  },
+  {
+   "id": 55518,
+   "code": "EDEN1",
+   "verein": "TTK Eden"
+  },
+  {
+   "id": 55695,
+   "code": "HAK1",
+   "verein": "SC Hakoah"
+  },
+  {
+   "id": 55127,
+   "code": "KONT1",
+   "verein": "TT Campus Brigittenau Kontakt Wien"
+  },
+  {
+   "id": 55292,
+   "code": "LENZ1",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55879,
+   "code": "LSV1",
+   "verein": "Lehrersportverein"
+  },
+  {
+   "id": 55911,
+   "code": "LSV2",
+   "verein": "Lehrersportverein"
+  },
+  {
+   "id": 55254,
+   "code": "NFS1",
+   "verein": "TTK Naturfreunde Stadlau"
+  },
+  {
+   "id": 55848,
+   "code": "OLYM1",
+   "verein": "ASVÖ TTC Olympic Wien"
+  },
+  {
+   "id": 55657,
+   "code": "SGPF1",
+   "verein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf"
+  },
+  {
+   "id": 55746,
+   "code": "SKFL1",
+   "verein": "SG Sportklub - Flötzersteig"
+  },
+  {
+   "id": 55797,
+   "code": "SKFL2",
+   "verein": "SG Sportklub - Flötzersteig"
+  },
+  {
+   "id": 55782,
+   "code": "SSH1",
+   "verein": "Spielgemeinschaft TTC Spar/Hobby Centre Vienna"
+  },
+  {
+   "id": 55416,
+   "code": "TT141",
+   "verein": "ASKÖ Tischtennis Wien 14"
+  },
+  {
+   "id": 55553,
+   "code": "TT142",
+   "verein": "ASKÖ Tischtennis Wien 14"
+  }
+ ],
+ "spiele": [
+  {
+   "gameId": 455407,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "07.09.2026",
+   "zeit": "19:00",
+   "heim": "HAK1",
+   "gast": "NFS1",
+   "heimName": "Hakoah 1",
+   "gastName": "Naturfreunde Stadlau 1",
+   "heimVerein": "SC Hakoah",
+   "gastVerein": "TTK Naturfreunde Stadlau",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 1,
+   "punkteGast": 4
+  },
+  {
+   "gameId": 455409,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.09.2026",
+   "zeit": "19:00",
+   "heim": "SSH1",
+   "gast": "LSV1",
+   "heimName": "Spar/Hobby Centre Vienna 1",
+   "gastName": "Lehrersportverein 1",
+   "heimVerein": "Spielgemeinschaft TTC Spar/Hobby Centre Vienna",
+   "gastVerein": "Lehrersportverein",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 3
+  },
+  {
+   "gameId": 455410,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.09.2026",
+   "zeit": "19:00",
+   "heim": "TT142",
+   "gast": "TT141",
+   "heimName": "ASKÖ TT 14 2",
+   "gastName": "ASKÖ TT 14 1",
+   "heimVerein": "ASKÖ Tischtennis Wien 14",
+   "gastVerein": "ASKÖ Tischtennis Wien 14",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 1
+  },
+  {
+   "gameId": 455413,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.09.2026",
+   "zeit": "19:00",
+   "heim": "LENZ1",
+   "gast": "SKFL2",
+   "heimName": "Langenzersdorf 1",
+   "gastName": "Sportklub / Flötzersteig 2",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "SG Sportklub - Flötzersteig",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 2,
+   "punkteGast": 4
+  },
+  {
+   "gameId": 455408,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.09.2026",
+   "zeit": "19:00",
+   "heim": "LSV2",
+   "gast": "DOEB1",
+   "heimName": "Lehrersportverein 2",
+   "gastName": "Union Döbling 1",
+   "heimVerein": "Lehrersportverein",
+   "gastVerein": "Union Döbling",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 1
+  },
+  {
+   "gameId": 455411,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "18.09.2026",
+   "zeit": "19:00",
+   "heim": "EDEN1",
+   "gast": "KONT1",
+   "heimName": "TTK Eden 1",
+   "gastName": "Kontakt 1",
+   "heimVerein": "TTK Eden",
+   "gastVerein": "TT Campus Brigittenau Kontakt Wien",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 2
+  },
+  {
+   "gameId": 455412,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "18.09.2026",
+   "zeit": "19:00",
+   "heim": "OLYM1",
+   "gast": "SKFL1",
+   "heimName": "Olympic 1",
+   "gastName": "Sportklub / Flötzersteig 1",
+   "heimVerein": "ASVÖ TTC Olympic Wien",
+   "gastVerein": "SG Sportklub - Flötzersteig",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 3
+  },
+  {
+   "gameId": 455416,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "12.10.2026",
+   "zeit": "19:00",
+   "heim": "TT142",
+   "gast": "SSH1",
+   "heimName": "ASKÖ TT 14 2",
+   "gastName": "Spar/Hobby Centre Vienna 1",
+   "heimVerein": "ASKÖ Tischtennis Wien 14",
+   "gastVerein": "Spielgemeinschaft TTC Spar/Hobby Centre Vienna",
+   "gespielt": true,
+   "bestaetigt": false,
+   "punkteHeim": 4,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455415,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.10.2026",
+   "zeit": "19:00",
+   "heim": "LSV2",
+   "gast": "NFS1",
+   "heimName": "Lehrersportverein 2",
+   "gastName": "Naturfreunde Stadlau 1",
+   "heimVerein": "Lehrersportverein",
+   "gastVerein": "TTK Naturfreunde Stadlau",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455418,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.10.2026",
+   "zeit": "19:00",
+   "heim": "SGPF1",
+   "gast": "SKFL2",
+   "heimName": "SG Post-Floridsdorf 1",
+   "gastName": "Sportklub / Flötzersteig 2",
+   "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gastVerein": "SG Sportklub - Flötzersteig",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455419,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.10.2026",
+   "zeit": "19:00",
+   "heim": "HAK1",
+   "gast": "DOEB1",
+   "heimName": "Hakoah 1",
+   "gastName": "Union Döbling 1",
+   "heimVerein": "SC Hakoah",
+   "gastVerein": "Union Döbling",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455421,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.10.2026",
+   "zeit": "19:00",
+   "heim": "KONT1",
+   "gast": "SKFL1",
+   "heimName": "Kontakt 1",
+   "gastName": "Sportklub / Flötzersteig 1",
+   "heimVerein": "TT Campus Brigittenau Kontakt Wien",
+   "gastVerein": "SG Sportklub - Flötzersteig",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455420,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "15.10.2026",
+   "zeit": "19:00",
+   "heim": "LSV1",
+   "gast": "TT141",
+   "heimName": "Lehrersportverein 1",
+   "gastName": "ASKÖ TT 14 1",
+   "heimVerein": "Lehrersportverein",
+   "gastVerein": "ASKÖ Tischtennis Wien 14",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455417,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.10.2026",
+   "zeit": "19:00",
+   "heim": "OLYM1",
+   "gast": "EDEN1",
+   "heimName": "Olympic 1",
+   "gastName": "TTK Eden 1",
+   "heimVerein": "ASVÖ TTC Olympic Wien",
+   "gastVerein": "TTK Eden",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  }
+ ]
+}

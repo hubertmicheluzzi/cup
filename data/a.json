@@ -1,0 +1,125 @@
+{
+ "format": "tt-cup-wttv/1",
+ "stand": "2026-10-12T22:37:06Z",
+ "bewerb": {
+  "id": "a",
+  "name": "Bewerb A",
+  "leagueId": 8978
+ },
+ "mannschaften": [
+  {
+   "id": 55693,
+   "code": "HAK1",
+   "verein": "SC Hakoah"
+  },
+  {
+   "id": 55289,
+   "code": "LENZ1",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55290,
+   "code": "LENZ2",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55877,
+   "code": "LSV1",
+   "verein": "Lehrersportverein"
+  },
+  {
+   "id": 55252,
+   "code": "NFS1",
+   "verein": "TTK Naturfreunde Stadlau"
+  },
+  {
+   "id": 55901,
+   "code": "SGPF1",
+   "verein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf"
+  },
+  {
+   "id": 55909,
+   "code": "SGWF1",
+   "verein": "SPG Wohnpark Alt-Erlaa - Future"
+  },
+  {
+   "id": 55832,
+   "code": "SKFL1",
+   "verein": "SG Sportklub - Flötzersteig"
+  }
+ ],
+ "spiele": [
+  {
+   "gameId": 455159,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "13.10.2026",
+   "zeit": "19:00",
+   "heim": "HAK1",
+   "gast": "LENZ2",
+   "heimName": "Hakoah 1",
+   "gastName": "Langenzersdorf 2",
+   "heimVerein": "SC Hakoah",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455160,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "13.10.2026",
+   "zeit": "19:00",
+   "heim": "LSV1",
+   "gast": "SGWF1",
+   "heimName": "Lehrersportverein 1",
+   "gastName": "SPG Wohnpark Alt-Erlaa - Future 1",
+   "heimVerein": "Lehrersportverein",
+   "gastVerein": "SPG Wohnpark Alt-Erlaa - Future",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455162,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "13.10.2026",
+   "zeit": "19:00",
+   "heim": "NFS1",
+   "gast": "SGPF1",
+   "heimName": "Naturfreunde Stadlau 1",
+   "gastName": "SG Post-Floridsdorf 1",
+   "heimVerein": "TTK Naturfreunde Stadlau",
+   "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455161,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "15.10.2026",
+   "zeit": "19:00",
+   "heim": "SKFL1",
+   "gast": "LENZ1",
+   "heimName": "Sportklub / Flötzersteig 1",
+   "gastName": "Langenzersdorf 1",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  }
+ ]
+}

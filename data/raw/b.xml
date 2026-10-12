@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='utf-8'?>
+<games_list>
+ <league_id>8979</league_id>
+ <team_id />
+ <period_id />
+ <round_id />
+ <game>
+  <game_id>455793</game_id>
+  <played>1</played>
+  <confirmed>1</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>1</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>1</round_id>
+  <date>14.09.2026</date>
+  <time>19:00</time>
+  <team_home_id>55694</team_home_id>
+  <team_home_code>HAK1</team_home_code>
+  <team_home_short_name>Hakoah 1</team_home_short_name>
+  <team_away_id>55880</team_away_id>
+  <team_away_code>LSV1</team_away_code>
+  <team_away_short_name>Lehrersportverein 1</team_away_short_name>
+  <club_home_id>418</club_home_id>
+  <club_home>SC Hakoah</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>425</club_away_id>
+  <club_away>Lehrersportverein</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>3</matches_won_home>
+  <matches_won_away>4</matches_won_away>
+  <location>Hakoah</location>
+  <latitude>48.207277</latitude>
+  <longitude>16.428552</longitude>
+  <address>
+   <street>Wehlistr. 326</street>
+   <postal_code>1020</postal_code>
+   <city>Wien</city>
+   <latitude>48.207277</latitude>
+   <longitude>16.428552</longitude>
+  </address>
+  </game>
+ <game>
+  <game_id>455791</game_id>
+  <played>1</played>
+  <confirmed>1</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>1</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>1</round_id>
+  <date>14.09.2026</date>
+  <time>19:00</time>
+  <team_home_id>55744</team_home_id>
+  <team_home_code>SKFL1</team_home_code>
+  <team_home_short_name>Sportklub / Flötzersteig 1</team_home_short_name>
+  <team_away_id>55655</team_away_id>
+  <team_away_code>SGPF1</team_away_code>
+  <team_away_short_name>SG Post-Floridsdorf 1</team_away_short_name>
+  <club_home_id>1108</club_home_id>
+  <club_home>SG Sportklub - Flötzersteig</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1351</club_away_id>
+  <club_away>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>4</matches_won_home>
+  <matches_won_away>2</matches_won_away>
+  <location>Berufsschule</location>
+  <latitude>48.18257</latitude>
+  <longitude>16.338125</longitude>
+  <address>
+   <street>Längenfeldgasse 13-15</street>
+   <postal_code>1120</postal_code>
+   <city>Wien</city>
+   <latitude>48.18257</latitude>
+   <longitude>16.338125</longitude>
+  </address>
+  </game>
+ <game>
+  <game_id>455792</game_id>
+  <played>1</played>
+  <confirmed>1</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>1</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>1</round_id>
+  <date>17.09.2026</date>
+  <time>19:00</time>
+  <team_home_id>55253</team_home_id>
+  <team_home_code>NFS1</team_home_code>
+  <team_home_short_name>Naturfreunde Stadlau 1</team_home_short_name>
+  <team_away_id>55418</team_away_id>
+  <team_away_code>TT141</team_away_code>
+  <team_away_short_name>ASKÖ TT 14 1</team_away_short_name>
+  <club_home_id>427</club_home_id>
+  <club_home>TTK Naturfreunde Stadlau</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>423</club_away_id>
+  <club_away>ASKÖ Tischtennis Wien 14</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>4</matches_won_away>
+  <location>Naturfreunde Stadlau</location>
+  <latitude>48.229447</latitude>
+  <longitude>16.450807</longitude>
+  <address>
+   <street>Erzherzog-Karl-Straße 108</street>
+   <postal_code>1220</postal_code>
+   <city>Wien</city>
+   <latitude>48.229447</latitude>
+   <longitude>16.450807</longitude>
+  </address>
+  </game>
+ <game>
+  <game_id>455795</game_id>
+  <played>1</played>
+  <confirmed>1</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>1</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>1</round_id>
+  <date>17.09.2026</date>
+  <time>19:00</time>
+  <team_home_id>55656</team_home_id>
+  <team_home_code>SGPF2</team_home_code>
+  <team_home_short_name>SG Post-Floridsdorf 2</team_home_short_name>
+  <team_away_id>55291</team_away_id>
+  <team_away_code>LENZ1</team_away_code>
+  <team_away_short_name>Langenzersdorf 1</team_away_short_name>
+  <club_home_id>1351</club_home_id>
+  <club_home>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>224</club_away_id>
+  <club_away>ATUS Langenzersdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>4</matches_won_away>
+  <location>POST SV Wien</location>
+  <latitude>48.265071</latitude>
+  <longitude>16.399919</longitude>
+  <address>
+   <street>Bahnsteggasse 17-23</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.265071</latitude>
+   <longitude>16.399919</longitude>
+  </address>
+  </game>
+ <game>
+  <game_id>455794</game_id>
+  <played>1</played>
+  <confirmed>1</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>1</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>1</round_id>
+  <date>01.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55745</team_home_id>
+  <team_home_code>SKFL2</team_home_code>
+  <team_home_short_name>Sportklub / Flötzersteig 2</team_home_short_name>
+  <team_away_id>55517</team_away_id>
+  <team_away_code>EDEN1</team_away_code>
+  <team_away_short_name>TTK Eden 1</team_away_short_name>
+  <club_home_id>1108</club_home_id>
+  <club_home>SG Sportklub - Flötzersteig</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>413</club_away_id>
+  <club_away>TTK Eden</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>4</matches_won_away>
+  <location>Berufsschule</location>
+  <latitude>48.18257</latitude>
+  <longitude>16.338125</longitude>
+  <address>
+   <street>Längenfeldgasse 13-15</street>
+   <postal_code>1120</postal_code>
+   <city>Wien</city>
+   <latitude>48.18257</latitude>
+   <longitude>16.338125</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455800</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>13.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55744</team_home_id>
+  <team_home_code>SKFL1</team_home_code>
+  <team_home_short_name>Sportklub / Flötzersteig 1</team_home_short_name>
+  <team_away_id>55798</team_away_id>
+  <team_away_code>SKFL3</team_away_code>
+  <team_away_short_name>Sportklub / Flötzersteig 3</team_away_short_name>
+  <club_home_id>1108</club_home_id>
+  <club_home>SG Sportklub - Flötzersteig</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1108</club_away_id>
+  <club_away>SG Sportklub - Flötzersteig</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Berufsschule</location>
+  <latitude>48.18257</latitude>
+  <longitude>16.338125</longitude>
+  <address>
+   <street>Längenfeldgasse 13-15</street>
+   <postal_code>1120</postal_code>
+   <city>Wien</city>
+   <latitude>48.18257</latitude>
+   <longitude>16.338125</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455864</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>15.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55253</team_home_id>
+  <team_home_code>NFS1</team_home_code>
+  <team_home_short_name>Naturfreunde Stadlau 1</team_home_short_name>
+  <team_away_id>55694</team_away_id>
+  <team_away_code>HAK1</team_away_code>
+  <team_away_short_name>Hakoah 1</team_away_short_name>
+  <club_home_id>427</club_home_id>
+  <club_home>TTK Naturfreunde Stadlau</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>418</club_away_id>
+  <club_away>SC Hakoah</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Naturfreunde Stadlau</location>
+  <latitude>48.229447</latitude>
+  <longitude>16.450807</longitude>
+  <address>
+   <street>Erzherzog-Karl-Straße 108</street>
+   <postal_code>1220</postal_code>
+   <city>Wien</city>
+   <latitude>48.229447</latitude>
+   <longitude>16.450807</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455799</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>16.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55861</team_home_id>
+  <team_home_code>OLYM1</team_home_code>
+  <team_home_short_name>Olympic 1</team_home_short_name>
+  <team_away_id>55120</team_away_id>
+  <team_away_code>KONT1</team_away_code>
+  <team_away_short_name>Kontakt 1</team_away_short_name>
+  <club_home_id>199</club_home_id>
+  <club_home>ASVÖ TTC Olympic Wien</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>148</club_away_id>
+  <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Olympic VS Bunteschule / Turnhalle</location>
+  <latitude>48.231458</latitude>
+  <longitude>16.363322</longitude>
+  <address>
+   <street>Brigittenauer Lände 66</street>
+   <postal_code>1200</postal_code>
+   <city>Wien</city>
+   <latitude>48.231458</latitude>
+   <longitude>16.363322</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455736</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>16.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55880</team_home_id>
+  <team_home_code>LSV1</team_home_code>
+  <team_home_short_name>Lehrersportverein 1</team_home_short_name>
+  <team_away_id>55418</team_away_id>
+  <team_away_code>TT141</team_away_code>
+  <team_away_short_name>ASKÖ TT 14 1</team_away_short_name>
+  <club_home_id>425</club_home_id>
+  <club_home>Lehrersportverein</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>423</club_away_id>
+  <club_away>ASKÖ Tischtennis Wien 14</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Lehrersportverein neu</location>
+  <latitude>48.195896</latitude>
+  <longitude>16.315581</longitude>
+  <address>
+   <street>Nobilegasse 25</street>
+   <postal_code>1150</postal_code>
+   <city>Wien</city>
+   <latitude>48.195896</latitude>
+   <longitude>16.315581</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455865</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>16.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55745</team_home_id>
+  <team_home_code>SKFL2</team_home_code>
+  <team_home_short_name>Sportklub / Flötzersteig 2</team_home_short_name>
+  <team_away_id>55656</team_away_id>
+  <team_away_code>SGPF2</team_away_code>
+  <team_away_short_name>SG Post-Floridsdorf 2</team_away_short_name>
+  <club_home_id>1108</club_home_id>
+  <club_home>SG Sportklub - Flötzersteig</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1351</club_away_id>
+  <club_away>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Berufsschule</location>
+  <latitude>48.18257</latitude>
+  <longitude>16.338125</longitude>
+  <address>
+   <street>Längenfeldgasse 13-15</street>
+   <postal_code>1120</postal_code>
+   <city>Wien</city>
+   <latitude>48.18257</latitude>
+   <longitude>16.338125</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455737</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>22.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55291</team_home_id>
+  <team_home_code>LENZ1</team_home_code>
+  <team_home_short_name>Langenzersdorf 1</team_home_short_name>
+  <team_away_id>55517</team_away_id>
+  <team_away_code>EDEN1</team_away_code>
+  <team_away_short_name>TTK Eden 1</team_away_short_name>
+  <club_home_id>224</club_home_id>
+  <club_home>ATUS Langenzersdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>413</club_away_id>
+  <club_away>TTK Eden</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>NMS Langenzersdorf</location>
+  <latitude>48.308377</latitude>
+  <longitude>16.355333</longitude>
+  <address>
+   <street>Klosterneuburgerstraße 12</street>
+   <postal_code>2103</postal_code>
+   <city>Langenzersdorf</city>
+   <latitude>48.308377</latitude>
+   <longitude>16.355333</longitude>
+  </address>
+ </game>
+</games_list>

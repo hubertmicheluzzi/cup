@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<games_list>
+ <league_id>8981</league_id>
+ <team_id />
+ <period_id />
+ <round_id />
+ <game>
+  <game_id>455481</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>12.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55783</team_home_id>
+  <team_home_code>SSH1</team_home_code>
+  <team_home_short_name>Spar/Hobby Centre Vienna 1</team_home_short_name>
+  <team_away_id>55696</team_away_id>
+  <team_away_code>HAK1</team_away_code>
+  <team_away_short_name>Hakoah 1</team_away_short_name>
+  <club_home_id>446</club_home_id>
+  <club_home>Spielgemeinschaft TTC Spar/Hobby Centre Vienna</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>418</club_away_id>
+  <club_away>SC Hakoah</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>TTC Spar neu</location>
+  <latitude>48.283068</latitude>
+  <longitude>16.414364</longitude>
+  <address>
+   <street>Brünner Straße 184</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.283068</latitude>
+   <longitude>16.414364</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455482</game_id>
+  <played>1</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>13.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55255</team_home_id>
+  <team_home_code>NFS1</team_home_code>
+  <team_home_short_name>Naturfreunde Stadlau 1</team_home_short_name>
+  <team_away_id>55862</team_away_id>
+  <team_away_code>OLYM1</team_away_code>
+  <team_away_short_name>Olympic 1</team_away_short_name>
+  <club_home_id>427</club_home_id>
+  <club_home>TTK Naturfreunde Stadlau</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>199</club_away_id>
+  <club_away>ASVÖ TTC Olympic Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>4</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Naturfreunde Stadlau</location>
+  <latitude>48.229447</latitude>
+  <longitude>16.450807</longitude>
+  <address>
+   <street>Erzherzog-Karl-Straße 108</street>
+   <postal_code>1220</postal_code>
+   <city>Wien</city>
+   <latitude>48.229447</latitude>
+   <longitude>16.450807</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455479</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>14.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55519</team_home_id>
+  <team_home_code>EDEN1</team_home_code>
+  <team_home_short_name>TTK Eden 1</team_home_short_name>
+  <team_away_id>55128</team_away_id>
+  <team_away_code>KONT1</team_away_code>
+  <team_away_short_name>Kontakt 1</team_away_short_name>
+  <club_home_id>413</club_home_id>
+  <club_home>TTK Eden</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>148</club_away_id>
+  <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>TTK Eden</location>
+  <latitude>48.248976</latitude>
+  <longitude>16.415176</longitude>
+  <address>
+   <street>An der Schanze 7</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.248976</latitude>
+   <longitude>16.415176</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455480</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>15.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55293</team_home_id>
+  <team_home_code>LENZ1</team_home_code>
+  <team_home_short_name>Langenzersdorf 1</team_home_short_name>
+  <team_away_id>55658</team_away_id>
+  <team_away_code>SGPF1</team_away_code>
+  <team_away_short_name>SG Post-Floridsdorf 1</team_away_short_name>
+  <club_home_id>224</club_home_id>
+  <club_home>ATUS Langenzersdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1351</club_away_id>
+  <club_away>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>NMS Langenzersdorf</location>
+  <latitude>48.308377</latitude>
+  <longitude>16.355333</longitude>
+  <address>
+   <street>Klosterneuburgerstraße 12</street>
+   <postal_code>2103</postal_code>
+   <city>Langenzersdorf</city>
+   <latitude>48.308377</latitude>
+   <longitude>16.355333</longitude>
+  </address>
+ </game>
+</games_list>

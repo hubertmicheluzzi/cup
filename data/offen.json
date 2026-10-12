@@ -1,0 +1,125 @@
+{
+ "format": "tt-cup-wttv/1",
+ "stand": "2026-10-12T22:37:06Z",
+ "bewerb": {
+  "id": "offen",
+  "name": "Offen",
+  "leagueId": 8977
+ },
+ "mannschaften": [
+  {
+   "id": 55515,
+   "code": "EDEN1",
+   "verein": "TTK Eden"
+  },
+  {
+   "id": 55692,
+   "code": "HAK1",
+   "verein": "SC Hakoah"
+  },
+  {
+   "id": 55202,
+   "code": "KONT1",
+   "verein": "TT Campus Brigittenau Kontakt Wien"
+  },
+  {
+   "id": 55297,
+   "code": "LENZ1",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55298,
+   "code": "LENZ2",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55878,
+   "code": "LSV1",
+   "verein": "Lehrersportverein"
+  },
+  {
+   "id": 55910,
+   "code": "OLYM1",
+   "verein": "ASVÖ TTC Olympic Wien"
+  },
+  {
+   "id": 55750,
+   "code": "SKFL1",
+   "verein": "SG Sportklub - Flötzersteig"
+  }
+ ],
+ "spiele": [
+  {
+   "gameId": 455672,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "06.10.2026",
+   "zeit": "19:00",
+   "heim": "LENZ1",
+   "gast": "OLYM1",
+   "heimName": "Langenzersdorf 1",
+   "gastName": "Olympic 1",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "ASVÖ TTC Olympic Wien",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 5,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455671,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "13.10.2026",
+   "zeit": "19:00",
+   "heim": "EDEN1",
+   "gast": "KONT1",
+   "heimName": "TTK Eden 1",
+   "gastName": "Kontakt 1",
+   "heimVerein": "TTK Eden",
+   "gastVerein": "TT Campus Brigittenau Kontakt Wien",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455673,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "15.10.2026",
+   "zeit": "19:00",
+   "heim": "SKFL1",
+   "gast": "HAK1",
+   "heimName": "Sportklub / Flötzersteig 1",
+   "gastName": "Hakoah 1",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "SC Hakoah",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455674,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.10.2026",
+   "zeit": "19:00",
+   "heim": "LENZ2",
+   "gast": "LSV1",
+   "heimName": "Langenzersdorf 2",
+   "gastName": "Lehrersportverein 1",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "Lehrersportverein",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  }
+ ]
+}

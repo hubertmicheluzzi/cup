@@ -1,0 +1,125 @@
+{
+ "format": "tt-cup-wttv/1",
+ "stand": "2026-10-12T22:37:06Z",
+ "bewerb": {
+  "id": "damen",
+  "name": "Damen",
+  "leagueId": 8976
+ },
+ "mannschaften": [
+  {
+   "id": 55516,
+   "code": "EDEN1",
+   "verein": "TTK Eden"
+  },
+  {
+   "id": 55699,
+   "code": "HAK1",
+   "verein": "SC Hakoah"
+  },
+  {
+   "id": 55285,
+   "code": "LENZ1",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55286,
+   "code": "LENZ2",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55287,
+   "code": "LENZ3",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55288,
+   "code": "LENZ4",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55847,
+   "code": "OLYM1",
+   "verein": "ASVÖ TTC Olympic Wien"
+  },
+  {
+   "id": 55747,
+   "code": "SKFL1",
+   "verein": "SG Sportklub - Flötzersteig"
+  }
+ ],
+ "spiele": [
+  {
+   "gameId": 455095,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "15.10.2026",
+   "zeit": "19:00",
+   "heim": "EDEN1",
+   "gast": "LENZ1",
+   "heimName": "TTK Eden 1",
+   "gastName": "Langenzersdorf 1",
+   "heimVerein": "TTK Eden",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455096,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.10.2026",
+   "zeit": "19:00",
+   "heim": "LENZ2",
+   "gast": "OLYM1",
+   "heimName": "Langenzersdorf 2",
+   "gastName": "Olympic 1",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "ASVÖ TTC Olympic Wien",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455098,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.10.2026",
+   "zeit": "19:00",
+   "heim": "LENZ3",
+   "gast": "LENZ4",
+   "heimName": "Langenzersdorf 3",
+   "gastName": "Langenzersdorf 4",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455097,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "21.10.2026",
+   "zeit": "19:00",
+   "heim": "SKFL1",
+   "gast": "HAK1",
+   "heimName": "Sportklub / Flötzersteig 1",
+   "gastName": "Hakoah 1",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "SC Hakoah",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  }
+ ]
+}

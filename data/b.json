@@ -1,0 +1,276 @@
+{
+ "format": "tt-cup-wttv/1",
+ "stand": "2026-10-12T22:37:06Z",
+ "bewerb": {
+  "id": "b",
+  "name": "Bewerb B",
+  "leagueId": 8979
+ },
+ "mannschaften": [
+  {
+   "id": 55517,
+   "code": "EDEN1",
+   "verein": "TTK Eden"
+  },
+  {
+   "id": 55694,
+   "code": "HAK1",
+   "verein": "SC Hakoah"
+  },
+  {
+   "id": 55120,
+   "code": "KONT1",
+   "verein": "TT Campus Brigittenau Kontakt Wien"
+  },
+  {
+   "id": 55291,
+   "code": "LENZ1",
+   "verein": "ATUS Langenzersdorf"
+  },
+  {
+   "id": 55880,
+   "code": "LSV1",
+   "verein": "Lehrersportverein"
+  },
+  {
+   "id": 55253,
+   "code": "NFS1",
+   "verein": "TTK Naturfreunde Stadlau"
+  },
+  {
+   "id": 55861,
+   "code": "OLYM1",
+   "verein": "ASVÖ TTC Olympic Wien"
+  },
+  {
+   "id": 55655,
+   "code": "SGPF1",
+   "verein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf"
+  },
+  {
+   "id": 55656,
+   "code": "SGPF2",
+   "verein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf"
+  },
+  {
+   "id": 55744,
+   "code": "SKFL1",
+   "verein": "SG Sportklub - Flötzersteig"
+  },
+  {
+   "id": 55745,
+   "code": "SKFL2",
+   "verein": "SG Sportklub - Flötzersteig"
+  },
+  {
+   "id": 55798,
+   "code": "SKFL3",
+   "verein": "SG Sportklub - Flötzersteig"
+  },
+  {
+   "id": 55418,
+   "code": "TT141",
+   "verein": "ASKÖ Tischtennis Wien 14"
+  }
+ ],
+ "spiele": [
+  {
+   "gameId": 455793,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.09.2026",
+   "zeit": "19:00",
+   "heim": "HAK1",
+   "gast": "LSV1",
+   "heimName": "Hakoah 1",
+   "gastName": "Lehrersportverein 1",
+   "heimVerein": "SC Hakoah",
+   "gastVerein": "Lehrersportverein",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 3,
+   "punkteGast": 4
+  },
+  {
+   "gameId": 455791,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "14.09.2026",
+   "zeit": "19:00",
+   "heim": "SKFL1",
+   "gast": "SGPF1",
+   "heimName": "Sportklub / Flötzersteig 1",
+   "gastName": "SG Post-Floridsdorf 1",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 2
+  },
+  {
+   "gameId": 455792,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "17.09.2026",
+   "zeit": "19:00",
+   "heim": "NFS1",
+   "gast": "TT141",
+   "heimName": "Naturfreunde Stadlau 1",
+   "gastName": "ASKÖ TT 14 1",
+   "heimVerein": "TTK Naturfreunde Stadlau",
+   "gastVerein": "ASKÖ Tischtennis Wien 14",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 0,
+   "punkteGast": 4
+  },
+  {
+   "gameId": 455795,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "17.09.2026",
+   "zeit": "19:00",
+   "heim": "SGPF2",
+   "gast": "LENZ1",
+   "heimName": "SG Post-Floridsdorf 2",
+   "gastName": "Langenzersdorf 1",
+   "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 0,
+   "punkteGast": 4
+  },
+  {
+   "gameId": 455794,
+   "runde": 1,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "01.10.2026",
+   "zeit": "19:00",
+   "heim": "SKFL2",
+   "gast": "EDEN1",
+   "heimName": "Sportklub / Flötzersteig 2",
+   "gastName": "TTK Eden 1",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "TTK Eden",
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 0,
+   "punkteGast": 4
+  },
+  {
+   "gameId": 455800,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "13.10.2026",
+   "zeit": "19:00",
+   "heim": "SKFL1",
+   "gast": "SKFL3",
+   "heimName": "Sportklub / Flötzersteig 1",
+   "gastName": "Sportklub / Flötzersteig 3",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "SG Sportklub - Flötzersteig",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455864,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "15.10.2026",
+   "zeit": "19:00",
+   "heim": "NFS1",
+   "gast": "HAK1",
+   "heimName": "Naturfreunde Stadlau 1",
+   "gastName": "Hakoah 1",
+   "heimVerein": "TTK Naturfreunde Stadlau",
+   "gastVerein": "SC Hakoah",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455799,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.10.2026",
+   "zeit": "19:00",
+   "heim": "OLYM1",
+   "gast": "KONT1",
+   "heimName": "Olympic 1",
+   "gastName": "Kontakt 1",
+   "heimVerein": "ASVÖ TTC Olympic Wien",
+   "gastVerein": "TT Campus Brigittenau Kontakt Wien",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455736,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.10.2026",
+   "zeit": "19:00",
+   "heim": "LSV1",
+   "gast": "TT141",
+   "heimName": "Lehrersportverein 1",
+   "gastName": "ASKÖ TT 14 1",
+   "heimVerein": "Lehrersportverein",
+   "gastVerein": "ASKÖ Tischtennis Wien 14",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455865,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.10.2026",
+   "zeit": "19:00",
+   "heim": "SKFL2",
+   "gast": "SGPF2",
+   "heimName": "Sportklub / Flötzersteig 2",
+   "gastName": "SG Post-Floridsdorf 2",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455737,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "22.10.2026",
+   "zeit": "19:00",
+   "heim": "LENZ1",
+   "gast": "EDEN1",
+   "heimName": "Langenzersdorf 1",
+   "gastName": "TTK Eden 1",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "TTK Eden",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  }
+ ]
+}
