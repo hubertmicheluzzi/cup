@@ -1,0 +1,11 @@
+{
+ "hinweis": "16 Startplätze je Bewerb in Auslosungs-Reihenfolge: Platz 1-2 = Spiel 1 der 1. Runde usw.; ungerader Platz = Heim. Mannschaftskürzel wie in der WTTV-API.",
+ "a":     ["LENZ2","Freilos","HAK1","Freilos","SGWF1","Freilos","LSV1","Freilos","LENZ1","Freilos","SKFL1","Freilos","SGPF1","Freilos","NFS1","Freilos"],
+ "b":     ["SKFL3","Freilos","SKFL1","SGPF1","NFS1","TT141","HAK1","LSV1","SKFL2","EDEN1","SGPF2","LENZ1","KONT1","Freilos","OLYM1","Freilos"],
+ "c":     ["HAK1","NFS1","LSV2","DOEB1","SSH1","LSV1","TT142","TT141","EDEN1","KONT1","OLYM1","SKFL1","LENZ1","SKFL2","SGPF1","Freilos"],
+ "d":     ["KONT1","Freilos","EDEN1","Freilos","SGPF1","Freilos","LENZ1","Freilos","HAK1","Freilos","SSH1","Freilos","OLYM1","Freilos","NFS1","Freilos"],
+ "e":     ["EDEN2","LENZ3","LENZ2","DOEB1","SGPF1","LENZ1","TT141","SSH1","EDEN1","HAK1","NFS1","NFS3","KONT1","OLYM1","NFS2","TYR1"],
+ "damen": ["LENZ1","Freilos","EDEN1","Freilos","OLYM1","Freilos","LENZ2","Freilos","HAK1","Freilos","SKFL1","Freilos","LENZ4","Freilos","LENZ3","Freilos"],
+ "offen": ["KONT1","Freilos","EDEN1","Freilos","OLYM1","Freilos","LENZ1","Freilos","HAK1","Freilos","SKFL1","Freilos","LSV1","Freilos","LENZ2","Freilos"],
+ "senb":  ["Freilos","TYR1","Freilos","SGPF2","SKFL1","Freilos","HAK1","DOEB1","LSV1","LENZ2","SGPF1","Freilos","LENZ1","Freilos","SGPF3","Freilos"]
+}
