@@ -75,7 +75,7 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
 .pl.lbl{font:500 11px/1 var(--f-ui);}
 .focusing .slot:not(.on), .focusing .pl.box:not(.on){filter:saturate(.15) contrast(.55) brightness(1.25);}
 .focusing svg .m:not(.on){opacity:.18;}
-.focusing svg .m.on line{stroke-width:6;}
+.focusing svg .m.on line{stroke-width:5;}
 .slot.on .nm{text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:2px;}
 svg .jumps{display:none;}
 .showjumps svg .jumps{display:inline;}
@@ -172,7 +172,7 @@ const BW=CELL.ha+CELL.nm+CELL.sc+CELL.ex;
 const GAP=20, REACH=10;
 const WB_SHIFT=10, WB_SHIFT_FROM=3, WB_JOINT_EXTRA=50;
 const LB_SHIFT=6, LB_SHIFT_FROM=4, LB_JOINT_EXTRA=6, LB_JOINT_DATES=[3];
-const LINE=4, LINE_UP=11;
+const LINE=3, LINE_UP=11;
 const X0=14, POS_W=30, PLACE_W=84;
 const blockX=d=>X0+POS_W+GAP+d*(BW+GAP);
 const PX=blockX(8);
