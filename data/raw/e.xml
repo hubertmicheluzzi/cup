@@ -294,7 +294,7 @@
   </game>
  <game>
   <game_id>455544</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -315,8 +315,8 @@
   <club_away_id>1351</club_away_id>
   <club_away>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>1</matches_won_home>
+  <matches_won_away>4</matches_won_away>
   <location>ASKÖ Sportzentrum Penzing</location>
   <latitude>48.196632</latitude>
   <longitude>16.297034</longitude>
@@ -327,7 +327,7 @@
    <latitude>48.196632</latitude>
    <longitude>16.297034</longitude>
   </address>
- </game>
+  </game>
  <game>
   <game_id>455549</game_id>
   <played>0</played>

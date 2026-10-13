@@ -1,11 +1,11 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-12T23:11:22Z",
+ "stand": "2026-10-13T12:44:25Z",
  "bewerb": {
   "id": "c",
   "name": "Bewerb C",
   "leagueId": 8980,
-  "farbe": "#00B3F3"
+  "farbe": "#B100E7"
  },
  "mannschaften": [
   {
