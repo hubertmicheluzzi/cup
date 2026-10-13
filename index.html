@@ -49,9 +49,9 @@ body{margin:0; background:var(--bg); color:var(--fg); font:14px/1.4 var(--f-ui);
 .head .t2{font:800 22px/1.2 var(--f-ui); color:var(--head-fg,#111);}
 .canvas{position:relative;}
 svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
-.seg{position:absolute; height:22px; display:flex; align-items:center; justify-content:center; gap:4px; font:500 12px/1 var(--f-cell); border:1px solid #6d6d6d;}
-.seg.d{background:#9A9999; color:#fff; font-style:italic;}
-.seg.l{background:#C9CACF; color:#222;}
+.seg{position:absolute; height:22px; display:flex; align-items:center; justify-content:center; gap:4px; font:500 12px/1 var(--f-cell); border:1px solid #BDBDBD;}
+.seg.d{background:#D4D4D4; color:#333; font-style:italic;}
+.seg.l{background:#E9E9E9; color:#333;}
 .seg .n{font:700 10px/1 var(--f-ui); margin-left:6px; padding:2px 5px; border-radius:8px; background:rgba(255,255,255,.75); color:#333; font-style:normal;}
 .slot{position:absolute; display:grid; transition:filter .15s;}
 .ha{display:grid; place-items:center; font:700 12px/1 var(--f-ui); color:#111;}
@@ -179,7 +179,7 @@ const X0=14, POS_W=30, PLACE_W=84;
 const blockX=d=>X0+POS_W+GAP+d*(BW+GAP);
 const PX=blockX(8);
 const SHEET_W=PX+2*PLACE_W+8+14;
-const RH=18, BAR=22, BOX_H=23, BAR_GAP=26, TOP=BAR+BAR_GAP+(BOX_H+1-RH);   // RH = Zeilenraster; BAR_GAP = Abstand Terminleiste – 1. Paarung
+const RH=18, BAR=22, BOX_H=23, BAR_GAP=56, TOP=BAR+BAR_GAP+(BOX_H+1-RH);   // RH = Zeilenraster; BAR_GAP = Abstand Terminleiste – 1. Paarung
 const PLACE_GAP_X=8, PLACE_GAP_Y=4, PLACE_LBL_H=14;
 const rowY=r=>TOP+(r-4)*RH;
 const boxTop=r=>rowY(r)+RH-1-BOX_H;
