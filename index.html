@@ -73,7 +73,7 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
 .lab{position:absolute; font:italic 500 9.5px/1 var(--f-cell); color:#2b2b2b; text-align:center; white-space:nowrap; pointer-events:none;}
 .pos{position:absolute; display:grid; place-items:center; background:#D9DCE5; font:700 12px/1 var(--f-ui);}
 .pl{position:absolute; display:grid; place-items:center; font:700 12.5px/1 var(--f-cell); white-space:nowrap; overflow:hidden; transition:filter .15s;}
-.pl.lbl{font:500 11px/1 var(--f-ui);}
+.pl.lbl{font:500 9.5px/1 var(--f-ui); color:#333; background:transparent; place-items:start center; padding-top:2px;}
 .focusing .slot:not(.on), .focusing .pl.box:not(.on){filter:saturate(.15) contrast(.55) brightness(1.25);}
 .focusing svg .m:not(.on){opacity:.18;}
 .focusing svg .m.on line{stroke-width:5;}
@@ -178,11 +178,12 @@ const X0=14, POS_W=30, PLACE_W=84;
 const blockX=d=>X0+POS_W+GAP+d*(BW+GAP);
 const PX=blockX(8);
 const SHEET_W=PX+2*PLACE_W+8+14;
-const RH=18, BAR=22, BOX_H=23, TOP=BAR+16+(BOX_H+1-RH);   // RH = Zeilenraster (vorher 28)
+const RH=18, BAR=22, BOX_H=23, BAR_GAP=26, TOP=BAR+BAR_GAP+(BOX_H+1-RH);   // RH = Zeilenraster; BAR_GAP = Abstand Terminleiste – 1. Paarung
+const PLACE_GAP_X=8, PLACE_GAP_Y=4, PLACE_LBL_H=14;
 const rowY=r=>TOP+(r-4)*RH;
 const boxTop=r=>rowY(r)+RH-1-BOX_H;
 const lineY=r=>rowY(r)+RH-1-LINE_UP;
-const PLACES_H=3*(BOX_H+18+6)+[2,2,4,4].reduce((a,n)=>a+n*(BOX_H+2)-2+18+6,0);
+const PLACES_H=3*(BOX_H+PLACE_LBL_H+PLACE_GAP_Y)+[2,2,4,4].reduce((a,n)=>a+n*(BOX_H+2)-2+PLACE_LBL_H+PLACE_GAP_Y,0);
 const BOTTOM_BAR=Math.max(rowY(47)+18, boxTop(24)+PLACES_H+6);
 const SHEET_H=BOTTOM_BAR+BAR+14;
 
@@ -349,19 +350,18 @@ for(const m of MATCHES){if(!isWB(m))continue;
   for(const ln of lineGroups[m.id].querySelectorAll("line")){const h=ln.cloneNode();h.setAttribute("stroke-width",LINE+4);h.setAttribute("stroke-linecap","butt");h.setAttribute("style","stroke:var(--sheet)");haloG.appendChild(h);}}
 for(const m of MATCHES){if(isWB(m))svg.appendChild(lineGroups[m.id]);}
 const PLACE_EL=[];
-const PLACE_GAP_X=8, PLACE_GAP_Y=6, PLACE_LBL_H=18;
 PLACES.forEach((p,i)=>{
   const x=i===0?placeX(0):placeX(0)+PLACE_W+PLACE_GAP_X;
   const top=boxTop(24)+(i===0?0:(i-1)*(BOX_H+PLACE_LBL_H+PLACE_GAP_Y));
   const b=el("div","pl box",canvas); Object.assign(b.style,{left:x+"px",top:top+"px",width:PLACE_W+"px",height:BOX_H+"px",background:p.bg,color:p.fg});
-  const l=el("div","pl lbl",canvas); Object.assign(l.style,{left:x+"px",top:(top+BOX_H)+"px",width:PLACE_W+"px",height:PLACE_LBL_H+"px",background:p.lbg,color:p.lfg}); l.textContent=p.lbl;
+  const l=el("div","pl lbl",canvas); Object.assign(l.style,{left:x+"px",top:(top+BOX_H)+"px",width:PLACE_W+"px",height:PLACE_LBL_H+"px"}); l.textContent=p.lbl;
   PLACE_EL.push({src:p.src,b});
 });
 { const x=placeX(0)+PLACE_W+PLACE_GAP_X; let y=boxTop(24)+3*(BOX_H+PLACE_LBL_H+PLACE_GAP_Y);
   for(const g of GROUPS){
     g.srcs.forEach(src=>{const b=el("div","pl box g",canvas);Object.assign(b.style,{left:x+"px",top:y+"px",width:PLACE_W+"px",height:BOX_H+"px",background:g.bg});PLACE_EL.push({src,b});y+=BOX_H+2;});
     y-=2;
-    const l=el("div","pl lbl g",canvas);Object.assign(l.style,{left:x+"px",top:y+"px",width:PLACE_W+"px",height:PLACE_LBL_H+"px",background:"#808080",color:"#fff"});l.textContent=g.lbl;l.title="Gleichwertige Platzierung, wird nicht ausgespielt";
+    const l=el("div","pl lbl g",canvas);Object.assign(l.style,{left:x+"px",top:y+"px",width:PLACE_W+"px",height:PLACE_LBL_H+"px"});l.textContent=g.lbl;l.title="Gleichwertige Platzierung, wird nicht ausgespielt";
     y+=PLACE_LBL_H+PLACE_GAP_Y;
   }
 }
