@@ -20,8 +20,9 @@
 *{box-sizing:border-box}
 body{margin:0; background:var(--bg); color:var(--fg); font:14px/1.4 var(--f-ui); padding:18px 16px 40px;}
 [hidden]{display:none !important}
-.top{display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:12px 24px; margin-bottom:12px;}
+.top{display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:flex-start; gap:12px 40px; margin-bottom:12px;}
 .top h1{font-size:20px; font-weight:800; margin:0;}
+.top > div:first-child{min-width:310px;}
 .top .sub{color:var(--muted); font-size:13px; margin-top:3px;}
 .seg-ctl{display:flex; flex-wrap:wrap; gap:4px; background:var(--panel); border:1px solid var(--rule); border-radius:8px; padding:4px;}
 .seg-ctl button{font:700 13px/1 var(--f-ui); padding:9px 12px; border-radius:5px; border:0; background:transparent; color:var(--fg); cursor:pointer;}
