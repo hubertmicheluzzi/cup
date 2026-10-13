@@ -5,49 +5,49 @@
    "id": "a",
    "name": "Bewerb A",
    "leagueId": 8978,
-   "farbe": "#A6A6A6"
+   "farbe": "#14ACFE"
   },
   {
    "id": "b",
    "name": "Bewerb B",
    "leagueId": 8979,
-   "farbe": "#A6A6A6"
+   "farbe": "#7226FF"
   },
   {
    "id": "c",
    "name": "Bewerb C",
    "leagueId": 8980,
-   "farbe": "#00B3F3"
+   "farbe": "#B100E7"
   },
   {
    "id": "d",
    "name": "Bewerb D",
    "leagueId": 8981,
-   "farbe": "#A6A6A6"
+   "farbe": "#FA001D"
   },
   {
    "id": "e",
    "name": "Bewerb E",
    "leagueId": 8982,
-   "farbe": "#A6A6A6"
+   "farbe": "#FFA704"
   },
   {
    "id": "damen",
    "name": "Damen",
    "leagueId": 8976,
-   "farbe": "#A6A6A6"
+   "farbe": "#FEE900"
   },
   {
    "id": "offen",
    "name": "Offen",
    "leagueId": 8977,
-   "farbe": "#A6A6A6"
+   "farbe": "#4AD461"
   },
   {
    "id": "senb",
    "name": "Senioren B",
    "leagueId": 8983,
-   "farbe": "#A6A6A6"
+   "farbe": "#01ECD0"
   }
  ],
  "hervorheben": "DOEB",

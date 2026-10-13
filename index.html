@@ -43,9 +43,10 @@ body{margin:0; background:var(--bg); color:var(--fg); font:14px/1.4 var(--f-ui);
 .scroll{overflow-x:auto; border-radius:4px; box-shadow:0 1px 0 var(--rule), 0 8px 24px rgba(0,0,0,.08);}
 .sheet{position:relative; background:var(--sheet); font-family:var(--f-cell); color:#111;}
 .head{height:76px; background:var(--bewerb); display:flex; align-items:center; gap:22px; padding:0 22px;}
-.logo{width:120px; height:48px; border:1.5px dashed rgba(0,0,0,.35); display:grid; place-items:center; font:600 11px/1.2 var(--f-ui); color:rgba(0,0,0,.55); text-align:center;}
-.head .t1{font:700 15px/1.2 var(--f-ui); color:#111;}
-.head .t2{font:800 22px/1.2 var(--f-ui); color:#111;}
+.logo{height:52px; padding:6px 12px; background:#fff; border-radius:6px; display:flex; align-items:center;}
+.logo img{height:40px; width:auto; display:block;}
+.head .t1{font:700 15px/1.2 var(--f-ui); color:var(--head-fg,#111);}
+.head .t2{font:800 22px/1.2 var(--f-ui); color:var(--head-fg,#111);}
 .canvas{position:relative;}
 svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
 .seg{position:absolute; height:22px; display:flex; align-items:center; justify-content:center; gap:4px; font:500 12px/1 var(--f-cell); border:1px solid #6d6d6d;}
@@ -54,7 +55,7 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
 .seg .n{font:700 10px/1 var(--f-ui); margin-left:6px; padding:2px 5px; border-radius:8px; background:rgba(255,255,255,.75); color:#333; font-style:normal;}
 .slot{position:absolute; display:grid; transition:filter .15s;}
 .ha{display:grid; place-items:center; font:700 12px/1 var(--f-ui); color:#111;}
-.ha.H{background:#B7FB74;} .ha.A{background:#FF7EBE;} .ha.none{background:transparent;}
+.ha.H{background:#FFD4FE; color:#111;} .ha.A{background:#707070; color:#fff;} .ha.none{background:transparent;}
 .nm{display:flex; align-items:center; justify-content:center; font:700 20px/1 var(--f-cell); white-space:nowrap; overflow:hidden; padding:0 2px;}
 .nm.real{cursor:pointer;}
 .nm.real:hover{filter:brightness(1.06); text-decoration:underline; text-underline-offset:2px;}
@@ -66,9 +67,8 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
 .k-lbf .nm{background:#FF0000; color:#fff;}
 .slot .nm.own{background:#FFFF00 !important; color:#C00000 !important;}
 .sc{display:grid; place-items:center; font:800 16px/1 var(--f-ui); color:#fff; font-variant-numeric:tabular-nums;}
-.k-r1 .sc, .k-wb .sc{background:#012057;}
-.k-drop .sc, .k-lbf .sc{background:#BB0100;}
-.k-lb .sc{background:#8A5C01;}
+.k-r1 .sc, .k-wb .sc{background:#018884;}
+.k-drop .sc, .k-lbf .sc, .k-lb .sc{background:#8D0418;}
 .ex{background:#D9DCE5;}
 .lab{position:absolute; font:italic 500 9.5px/1 var(--f-cell); color:#2b2b2b; text-align:center; white-space:nowrap; pointer-events:none;}
 .pos{position:absolute; display:grid; place-items:center; background:#D9DCE5; font:700 12px/1 var(--f-ui);}
@@ -141,7 +141,7 @@ svg .jumps{display:none;}
 
 <section id="view-baum">
   <div class="scroll" id="scroll"><div class="sheet" id="sheet">
-    <div class="head"><div class="logo">Verbands-<br>logo</div><div><div class="t1" id="t1"></div><div class="t2" id="t2"></div></div></div>
+    <div class="head"><div class="logo"><img src="assets/wttv-logo.png" alt="WTTV" width="135" height="40"></div><div><div class="t1" id="t1"></div><div class="t2" id="t2"></div></div></div>
     <div class="canvas" id="canvas"></div>
   </div></div>
   <div class="below">
@@ -379,6 +379,10 @@ function roundLabel(d){
 const gameWhen=g=>g?[norm(g.datum),norm(g.zeit)].filter(Boolean).join(" "):"";
 
 /* =================== Anzeige =================== */
+// Schriftfarbe im Kopfband: weiß auf dunklen, schwarz auf hellen Bewerbsfarben
+function headFg(hex){const m=/^#?([0-9a-f]{6})$/i.exec(hex||"");if(!m)return "#111";const n=parseInt(m[1],16);
+  const c=[n>>16&255,n>>8&255,n&255].map(v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4);});
+  const L=.2126*c[0]+.7152*c[1]+.0722*c[2];return (1.05/(L+.05))>((L+.05)/.05)?"#fff":"#111";}
 let focusTeam="";
 function setFocus(t){focusTeam=t?key(t):"";document.getElementById("focusChip").hidden=!focusTeam;document.getElementById("focusName").textContent="Weg: "+norm(t);render();}
 document.getElementById("focusClear").addEventListener("click",()=>setFocus(""));
@@ -389,7 +393,9 @@ function render(){
   document.getElementById("t1").textContent="CUP "+(CFG?CFG.saison:"");
   document.getElementById("t2").textContent=cur?cur.name:"";
   document.getElementById("title").textContent="TT-CUP "+(CFG?CFG.saison:"")+(cur?" · "+cur.name:"");
-  sheet.style.setProperty("--bewerb",(cur&&cur.farbe)||"#A6A6A6");
+  const hc=(cur&&cur.farbe)||"#A6A6A6";
+  sheet.style.setProperty("--bewerb",hc);
+  sheet.style.setProperty("--head-fg",headFg(hc));
   for(const s of SLOTS){
     const o=OUT[s.m.id], team=s.k===0?o.a:o.b, inf=info[s.m.id], r=results[s.m.id];
     s.nm.textContent=team;
