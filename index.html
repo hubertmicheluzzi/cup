@@ -13,7 +13,7 @@
   --bg:#ECEEF1; --panel:#FFFFFF; --fg:#1A1E23; --muted:#5B6570; --rule:#D2D7DD; --accent:#0D5BA8; --warn:#C25E00; --ok:#1F7A3A; --field:#F6F7F9;
   --f-ui:"Archivo","Helvetica Neue",Arial,sans-serif;
   --f-cell:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
-  --bewerb:#A6A6A6; --sheet:#C0C0C0;
+  --bewerb:#A6A6A6; --sheet:#FFFFFF;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root{--bg:#14171B; --panel:#1D2126; --fg:#E6E9ED; --muted:#9AA4AE; --rule:#333A42; --accent:#71B2F3; --warn:#F2A050; --ok:#5CC27E; --field:#262B31; color-scheme:dark;}}
@@ -69,7 +69,7 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
 .k-drop .sc, .k-lbf .sc{background:#BB0100;}
 .k-lb .sc{background:#8A5C01;}
 .ex{background:#D9DCE5;}
-.lab{position:absolute; font:italic 500 10.5px/1 var(--f-cell); color:#2b2b2b; text-align:center; white-space:nowrap; pointer-events:none;}
+.lab{position:absolute; font:italic 500 9.5px/1 var(--f-cell); color:#2b2b2b; text-align:center; white-space:nowrap; pointer-events:none;}
 .pos{position:absolute; display:grid; place-items:center; background:#D9DCE5; font:700 12px/1 var(--f-ui);}
 .pl{position:absolute; display:grid; place-items:center; font:700 12.5px/1 var(--f-cell); white-space:nowrap; overflow:hidden; transition:filter .15s;}
 .pl.lbl{font:500 11px/1 var(--f-ui);}
@@ -177,11 +177,12 @@ const X0=14, POS_W=30, PLACE_W=84;
 const blockX=d=>X0+POS_W+GAP+d*(BW+GAP);
 const PX=blockX(8);
 const SHEET_W=PX+2*PLACE_W+8+14;
-const RH=28, BAR=22, TOP=BAR+16, BOX_H=23;
+const RH=18, BAR=22, BOX_H=23, TOP=BAR+16+(BOX_H+1-RH);   // RH = Zeilenraster (vorher 28)
 const rowY=r=>TOP+(r-4)*RH;
 const boxTop=r=>rowY(r)+RH-1-BOX_H;
 const lineY=r=>rowY(r)+RH-1-LINE_UP;
-const BOTTOM_BAR=rowY(47)+18;
+const PLACES_H=3*(BOX_H+18+6)+[2,2,4,4].reduce((a,n)=>a+n*(BOX_H+2)-2+18+6,0);
+const BOTTOM_BAR=Math.max(rowY(47)+18, boxTop(24)+PLACES_H+6);
 const SHEET_H=BOTTOM_BAR+BAR+14;
 
 /* =================== Turnierstruktur =================== */
@@ -210,9 +211,9 @@ add("L10","",3,[S(W("L7"),34,"H"),S(W("L8"),45,"A")]);
 add("L11","",4,[S(W("L9"),19,"A"),S(L("M13"),21,"H")]);
 add("L12","",4,[S(W("L10"),40,"A"),S(L("M14"),42,"H")]);
 add("M15","1-16",5,[S(W("M13"),10,"A"),S(W("M14"),31,"H")]);
-add("L13","",5,[S(W("L11"),20,"H"),S(W("L12"),40,"A",28)]);
-add("L14","",6,[S(W("L13"),29,"A",120),S(L("M15"),31,"H",120)]);
-add("F","Finale",7,[S(W("M15"),17,null),S(W("L14"),30,null,120)]);
+add("L13","",5,[S(W("L11"),20,"H"),S(W("L12"),40,"A",RH)]);
+add("L14","",6,[S(W("L13"),29,"A",Math.round(RH*120/28)),S(L("M15"),31,"H",Math.round(RH*120/28))]);
+add("F","Finale",7,[S(W("M15"),17,null),S(W("L14"),30,null,Math.round(RH*120/28))]);
 const BYID=Object.fromEntries(MATCHES.map(m=>[m.id,m]));
 const isWB=m=>m.id.startsWith("M");
 const shiftOf=m=>(isWB(m)&&m.date>=WB_SHIFT_FROM)?WB_SHIFT:((!isWB(m)&&m.id!=="F"&&m.date>=LB_SHIFT_FROM)?LB_SHIFT:0);
@@ -232,7 +233,7 @@ const GROUPS=[
   {srcs:[L("L11"),L("L12")],bg:"#E7C8FF",lbl:"5. Platz"},
   {srcs:[L("L9"),L("L10")],bg:"#DCE9F6",lbl:"6. Platz"},
   {srcs:[L("L5"),L("L6"),L("L7"),L("L8")],bg:"#E2EFDA",lbl:"7. Platz"},
-  {srcs:[L("L1"),L("L2"),L("L3"),L("L4")],bg:"#F4F4F4",lbl:"8. Platz"}];
+  {srcs:[L("L1"),L("L2"),L("L3"),L("L4")],bg:"#E6E6E6",lbl:"8. Platz"}];
 const placeX=g=>PX+g*(PLACE_W+GAP);
 
 /* =================== Zustand =================== */
@@ -321,7 +322,7 @@ for(const m of MATCHES){
     const nm=el("div","nm",wrap);
     const sc=el("div","sc",wrap);
     el("div","ex",wrap);
-    if(def.src.t==="L"){const lb=el("div","lab",canvas);lb.textContent="V "+BYID[def.src.m].lab;lb.style.left=(lx+CELL.ha)+"px";lb.style.width=CELL.nm+"px";lb.style.top=(sTop(def)+BOX_H+3)+"px";}
+    if(def.src.t==="L"){const lb=el("div","lab",canvas);lb.textContent="V "+BYID[def.src.m].lab;lb.style.left=(lx+CELL.ha)+"px";lb.style.width=CELL.nm+"px";lb.style.top=(sTop(def)+BOX_H+1)+"px";}
     SLOTS.push({m,k,def,wrap,h,nm,sc});
     hline(lx+8,jx,ys[k],m.id==="F"?(k===0?"#111":"#E00000"):col,g);
     if(def.src.t==="L"){
