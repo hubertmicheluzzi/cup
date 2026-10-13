@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-13T12:44:25Z",
+ "stand": "2026-10-13T21:51:32Z",
  "bewerb": {
   "id": "a",
   "name": "Bewerb A",
@@ -51,6 +51,24 @@
  ],
  "spiele": [
   {
+   "gameId": 455162,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "13.10.2026",
+   "zeit": "19:00",
+   "heim": "NFS1",
+   "gast": "SGPF1",
+   "heimName": "Naturfreunde Stadlau 1",
+   "gastName": "SG Post-Floridsdorf 1",
+   "heimVerein": "TTK Naturfreunde Stadlau",
+   "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gespielt": true,
+   "bestaetigt": false,
+   "punkteHeim": 5,
+   "punkteGast": 0
+  },
+  {
    "gameId": 455159,
    "runde": 2,
    "rundeName": "",
@@ -63,9 +81,9 @@
    "gastName": "Langenzersdorf 2",
    "heimVerein": "SC Hakoah",
    "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
+   "punkteHeim": 5,
    "punkteGast": 0
   },
   {
@@ -81,24 +99,6 @@
    "gastName": "SPG Wohnpark Alt-Erlaa - Future 1",
    "heimVerein": "Lehrersportverein",
    "gastVerein": "SPG Wohnpark Alt-Erlaa - Future",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
-  },
-  {
-   "gameId": 455162,
-   "runde": 2,
-   "rundeName": "",
-   "periode": 1,
-   "datum": "13.10.2026",
-   "zeit": "19:00",
-   "heim": "NFS1",
-   "gast": "SGPF1",
-   "heimName": "Naturfreunde Stadlau 1",
-   "gastName": "SG Post-Floridsdorf 1",
-   "heimVerein": "TTK Naturfreunde Stadlau",
-   "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
    "gespielt": false,
    "bestaetigt": false,
    "punkteHeim": 0,

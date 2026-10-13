@@ -5,8 +5,44 @@
  <period_id />
  <round_id />
  <game>
+  <game_id>455162</game_id>
+  <played>1</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>13.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55252</team_home_id>
+  <team_home_code>NFS1</team_home_code>
+  <team_home_short_name>Naturfreunde Stadlau 1</team_home_short_name>
+  <team_away_id>55901</team_away_id>
+  <team_away_code>SGPF1</team_away_code>
+  <team_away_short_name>SG Post-Floridsdorf 1</team_away_short_name>
+  <club_home_id>427</club_home_id>
+  <club_home>TTK Naturfreunde Stadlau</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1351</club_away_id>
+  <club_away>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>5</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Naturfreunde Stadlau</location>
+  <latitude>48.229447</latitude>
+  <longitude>16.450807</longitude>
+  <address>
+   <street>Erzherzog-Karl-Straße 108</street>
+   <postal_code>1220</postal_code>
+   <city>Wien</city>
+   <latitude>48.229447</latitude>
+   <longitude>16.450807</longitude>
+  </address>
+  </game>
+ <game>
   <game_id>455159</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -27,7 +63,7 @@
   <club_away_id>224</club_away_id>
   <club_away>ATUS Langenzersdorf</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
+  <matches_won_home>5</matches_won_home>
   <matches_won_away>0</matches_won_away>
   <location>Hakoah</location>
   <latitude>48.207277</latitude>
@@ -39,7 +75,7 @@
    <latitude>48.207277</latitude>
    <longitude>16.428552</longitude>
   </address>
- </game>
+  </game>
  <game>
   <game_id>455160</game_id>
   <played>0</played>
@@ -74,42 +110,6 @@
    <city>Wien</city>
    <latitude>48.195896</latitude>
    <longitude>16.315581</longitude>
-  </address>
- </game>
- <game>
-  <game_id>455162</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
-  <period_nr>1</period_nr>
-  <round_nr>2</round_nr>
-  <round_name />
-  <period_id>1</period_id>
-  <round_id>2</round_id>
-  <date>13.10.2026</date>
-  <time>19:00</time>
-  <team_home_id>55252</team_home_id>
-  <team_home_code>NFS1</team_home_code>
-  <team_home_short_name>Naturfreunde Stadlau 1</team_home_short_name>
-  <team_away_id>55901</team_away_id>
-  <team_away_code>SGPF1</team_away_code>
-  <team_away_short_name>SG Post-Floridsdorf 1</team_away_short_name>
-  <club_home_id>427</club_home_id>
-  <club_home>TTK Naturfreunde Stadlau</club_home>
-  <club_home_state>Wien</club_home_state>
-  <club_away_id>1351</club_away_id>
-  <club_away>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_away>
-  <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
-  <location>Naturfreunde Stadlau</location>
-  <latitude>48.229447</latitude>
-  <longitude>16.450807</longitude>
-  <address>
-   <street>Erzherzog-Karl-Straße 108</street>
-   <postal_code>1220</postal_code>
-   <city>Wien</city>
-   <latitude>48.229447</latitude>
-   <longitude>16.450807</longitude>
   </address>
  </game>
  <game>

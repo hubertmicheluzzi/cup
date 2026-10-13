@@ -42,7 +42,7 @@
   </game>
  <game>
   <game_id>455671</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -63,8 +63,8 @@
   <club_away_id>148</club_away_id>
   <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>3</matches_won_home>
+  <matches_won_away>2</matches_won_away>
   <location>TTK Eden</location>
   <latitude>48.248976</latitude>
   <longitude>16.415176</longitude>
@@ -75,43 +75,7 @@
    <latitude>48.248976</latitude>
    <longitude>16.415176</longitude>
   </address>
- </game>
- <game>
-  <game_id>455673</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
-  <period_nr>1</period_nr>
-  <round_nr>2</round_nr>
-  <round_name />
-  <period_id>1</period_id>
-  <round_id>2</round_id>
-  <date>15.10.2026</date>
-  <time>19:00</time>
-  <team_home_id>55750</team_home_id>
-  <team_home_code>SKFL1</team_home_code>
-  <team_home_short_name>Sportklub / Flötzersteig 1</team_home_short_name>
-  <team_away_id>55692</team_away_id>
-  <team_away_code>HAK1</team_away_code>
-  <team_away_short_name>Hakoah 1</team_away_short_name>
-  <club_home_id>1108</club_home_id>
-  <club_home>SG Sportklub - Flötzersteig</club_home>
-  <club_home_state>Wien</club_home_state>
-  <club_away_id>418</club_away_id>
-  <club_away>SC Hakoah</club_away>
-  <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
-  <location>Berufsschule</location>
-  <latitude>48.18257</latitude>
-  <longitude>16.338125</longitude>
-  <address>
-   <street>Längenfeldgasse 13-15</street>
-   <postal_code>1120</postal_code>
-   <city>Wien</city>
-   <latitude>48.18257</latitude>
-   <longitude>16.338125</longitude>
-  </address>
- </game>
+  </game>
  <game>
   <game_id>455674</game_id>
   <played>0</played>
@@ -146,6 +110,42 @@
    <city>Langenzersdorf</city>
    <latitude>48.308377</latitude>
    <longitude>16.355333</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455673</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>29.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55750</team_home_id>
+  <team_home_code>SKFL1</team_home_code>
+  <team_home_short_name>Sportklub / Flötzersteig 1</team_home_short_name>
+  <team_away_id>55692</team_away_id>
+  <team_away_code>HAK1</team_away_code>
+  <team_away_short_name>Hakoah 1</team_away_short_name>
+  <club_home_id>1108</club_home_id>
+  <club_home>SG Sportklub - Flötzersteig</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>418</club_away_id>
+  <club_away>SC Hakoah</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Berufsschule</location>
+  <latitude>48.18257</latitude>
+  <longitude>16.338125</longitude>
+  <address>
+   <street>Längenfeldgasse 13-15</street>
+   <postal_code>1120</postal_code>
+   <city>Wien</city>
+   <latitude>48.18257</latitude>
+   <longitude>16.338125</longitude>
   </address>
  </game>
 </games_list>

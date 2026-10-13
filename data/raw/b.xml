@@ -186,7 +186,7 @@
  </game>
  <game>
   <game_id>455800</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -207,7 +207,7 @@
   <club_away_id>1108</club_away_id>
   <club_away>SG Sportklub - Flötzersteig</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
+  <matches_won_home>4</matches_won_home>
   <matches_won_away>0</matches_won_away>
   <location>Berufsschule</location>
   <latitude>48.18257</latitude>
@@ -219,7 +219,7 @@
    <latitude>48.18257</latitude>
    <longitude>16.338125</longitude>
   </address>
- </game>
+  </game>
  <game>
   <game_id>455864</game_id>
   <played>0</played>

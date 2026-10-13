@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-13T12:44:25Z",
+ "stand": "2026-10-13T21:51:32Z",
  "bewerb": {
   "id": "senb",
   "name": "Senioren B",
@@ -109,10 +109,10 @@
    "gastName": "Sportklub / Flötzersteig 1",
    "heimVerein": "SC Hakoah",
    "gastVerein": "SG Sportklub - Flötzersteig",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 1,
+   "punkteGast": 4
   },
   {
    "gameId": 455607,
