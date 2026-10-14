@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-13T21:51:32Z",
+ "stand": "2026-10-14T10:15:56Z",
  "bewerb": {
   "id": "a",
   "name": "Bewerb A",
@@ -82,7 +82,7 @@
    "heimVerein": "SC Hakoah",
    "gastVerein": "ATUS Langenzersdorf",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 5,
    "punkteGast": 0
   },
