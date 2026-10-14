@@ -259,7 +259,7 @@
  <game>
   <game_id>455416</game_id>
   <played>1</played>
-  <confirmed>0</confirmed>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -292,6 +292,42 @@
    <longitude>16.297034</longitude>
   </address>
  </game>
+ <game>
+  <game_id>455419</game_id>
+  <played>1</played>
+  <confirmed>1</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>14.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55695</team_home_id>
+  <team_home_code>HAK1</team_home_code>
+  <team_home_short_name>Hakoah 1</team_home_short_name>
+  <team_away_id>55245</team_away_id>
+  <team_away_code>DOEB1</team_away_code>
+  <team_away_short_name>Union Döbling 1</team_away_short_name>
+  <club_home_id>418</club_home_id>
+  <club_home>SC Hakoah</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>394</club_away_id>
+  <club_away>Union Döbling</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>4</matches_won_away>
+  <location>Hakoah</location>
+  <latitude>48.207277</latitude>
+  <longitude>16.428552</longitude>
+  <address>
+   <street>Wehlistr. 326</street>
+   <postal_code>1020</postal_code>
+   <city>Wien</city>
+   <latitude>48.207277</latitude>
+   <longitude>16.428552</longitude>
+  </address>
+  </game>
  <game>
   <game_id>455415</game_id>
   <played>0</played>
@@ -362,42 +398,6 @@
    <city>Wien</city>
    <latitude>48.265071</latitude>
    <longitude>16.399919</longitude>
-  </address>
- </game>
- <game>
-  <game_id>455419</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
-  <period_nr>1</period_nr>
-  <round_nr>2</round_nr>
-  <round_name />
-  <period_id>1</period_id>
-  <round_id>2</round_id>
-  <date>14.10.2026</date>
-  <time>19:00</time>
-  <team_home_id>55695</team_home_id>
-  <team_home_code>HAK1</team_home_code>
-  <team_home_short_name>Hakoah 1</team_home_short_name>
-  <team_away_id>55245</team_away_id>
-  <team_away_code>DOEB1</team_away_code>
-  <team_away_short_name>Union Döbling 1</team_away_short_name>
-  <club_home_id>418</club_home_id>
-  <club_home>SC Hakoah</club_home>
-  <club_home_state>Wien</club_home_state>
-  <club_away_id>394</club_away_id>
-  <club_away>Union Döbling</club_away>
-  <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
-  <location>Hakoah</location>
-  <latitude>48.207277</latitude>
-  <longitude>16.428552</longitude>
-  <address>
-   <street>Wehlistr. 326</street>
-   <postal_code>1020</postal_code>
-   <city>Wien</city>
-   <latitude>48.207277</latitude>
-   <longitude>16.428552</longitude>
   </address>
  </game>
  <game>

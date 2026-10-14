@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-14T10:15:56Z",
+ "stand": "2026-10-14T20:43:01Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -162,7 +162,7 @@
    "gastVerein": "TTK Eden",
    "gespielt": true,
    "bestaetigt": true,
-   "punkteHeim": 0,
+   "punkteHeim": 2,
    "punkteGast": 4
   },
   {
@@ -238,24 +238,6 @@
    "punkteGast": 0
   },
   {
-   "gameId": 455865,
-   "runde": 2,
-   "rundeName": "",
-   "periode": 1,
-   "datum": "16.10.2026",
-   "zeit": "19:00",
-   "heim": "SKFL2",
-   "gast": "SGPF2",
-   "heimName": "Sportklub / Flötzersteig 2",
-   "gastName": "SG Post-Floridsdorf 2",
-   "heimVerein": "SG Sportklub - Flötzersteig",
-   "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
-  },
-  {
    "gameId": 455737,
    "runde": 2,
    "rundeName": "",
@@ -268,6 +250,24 @@
    "gastName": "TTK Eden 1",
    "heimVerein": "ATUS Langenzersdorf",
    "gastVerein": "TTK Eden",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455865,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "26.10.2026",
+   "zeit": "19:00",
+   "heim": "SKFL2",
+   "gast": "SGPF2",
+   "heimName": "Sportklub / Flötzersteig 2",
+   "gastName": "SG Post-Floridsdorf 2",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
    "gespielt": false,
    "bestaetigt": false,
    "punkteHeim": 0,

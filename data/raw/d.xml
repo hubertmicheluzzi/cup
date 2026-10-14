@@ -6,7 +6,7 @@
  <round_id />
  <game>
   <game_id>455481</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -28,7 +28,7 @@
   <club_away>SC Hakoah</club_away>
   <club_away_state>Wien</club_away_state>
   <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_away>4</matches_won_away>
   <location>TTC Spar neu</location>
   <latitude>48.283068</latitude>
   <longitude>16.414364</longitude>
