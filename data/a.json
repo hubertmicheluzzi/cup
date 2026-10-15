@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-15T09:57:48Z",
+ "stand": "2026-10-15T20:21:31Z",
  "bewerb": {
   "id": "a",
   "name": "Bewerb A",
@@ -100,7 +100,7 @@
    "heimVerein": "Lehrersportverein",
    "gastVerein": "SPG Wohnpark Alt-Erlaa - Future",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 5,
    "punkteGast": 0
   },
@@ -117,10 +117,10 @@
    "gastName": "Langenzersdorf 1",
    "heimVerein": "SG Sportklub - Flötzersteig",
    "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 1,
+   "punkteGast": 4
   }
  ]
 }

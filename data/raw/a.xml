@@ -79,7 +79,7 @@
  <game>
   <game_id>455160</game_id>
   <played>1</played>
-  <confirmed>0</confirmed>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -114,8 +114,8 @@
   </game>
  <game>
   <game_id>455161</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
+  <played>1</played>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -135,8 +135,8 @@
   <club_away_id>224</club_away_id>
   <club_away>ATUS Langenzersdorf</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>1</matches_won_home>
+  <matches_won_away>4</matches_won_away>
   <location>Berufsschule</location>
   <latitude>48.18257</latitude>
   <longitude>16.338125</longitude>
@@ -147,5 +147,5 @@
    <latitude>48.18257</latitude>
    <longitude>16.338125</longitude>
   </address>
- </game>
+  </game>
 </games_list>

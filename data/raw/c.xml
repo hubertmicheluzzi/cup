@@ -331,7 +331,7 @@
  <game>
   <game_id>455418</game_id>
   <played>1</played>
-  <confirmed>0</confirmed>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -367,7 +367,7 @@
  <game>
   <game_id>455421</game_id>
   <played>1</played>
-  <confirmed>0</confirmed>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -438,7 +438,7 @@
   </game>
  <game>
   <game_id>455420</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -459,8 +459,8 @@
   <club_away_id>423</club_away_id>
   <club_away>ASKÖ Tischtennis Wien 14</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>4</matches_won_home>
+  <matches_won_away>1</matches_won_away>
   <location>Lehrersportverein neu</location>
   <latitude>48.195896</latitude>
   <longitude>16.315581</longitude>
@@ -471,7 +471,7 @@
    <latitude>48.195896</latitude>
    <longitude>16.315581</longitude>
   </address>
- </game>
+  </game>
  <game>
   <game_id>455417</game_id>
   <played>0</played>

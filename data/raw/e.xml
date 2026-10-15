@@ -331,7 +331,7 @@
  <game>
   <game_id>455549</game_id>
   <played>1</played>
-  <confirmed>0</confirmed>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -398,6 +398,42 @@
    <city>Wien</city>
    <latitude>48.229447</latitude>
    <longitude>16.450807</longitude>
+  </address>
+  </game>
+ <game>
+  <game_id>455546</game_id>
+  <played>1</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>15.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55294</team_home_id>
+  <team_home_code>LENZ1</team_home_code>
+  <team_home_short_name>Langenzersdorf 1</team_home_short_name>
+  <team_away_id>55784</team_away_id>
+  <team_away_code>SSH1</team_away_code>
+  <team_away_short_name>Spar/Hobby Centre Vienna 1</team_away_short_name>
+  <club_home_id>224</club_home_id>
+  <club_home>ATUS Langenzersdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>446</club_away_id>
+  <club_away>Spielgemeinschaft TTC Spar/Hobby Centre Vienna</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>4</matches_won_home>
+  <matches_won_away>2</matches_won_away>
+  <location>Vereinshalle Langenzersdorf</location>
+  <latitude>48.307684</latitude>
+  <longitude>16.352675</longitude>
+  <address>
+   <street>Gertrude-Liebhart-Straße 10</street>
+   <postal_code>2103</postal_code>
+   <city>Langenzersdorf</city>
+   <latitude>48.307684</latitude>
+   <longitude>16.352675</longitude>
   </address>
   </game>
  <game>
@@ -470,42 +506,6 @@
    <city>Wien</city>
    <latitude>48.248976</latitude>
    <longitude>16.415176</longitude>
-  </address>
- </game>
- <game>
-  <game_id>455546</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
-  <period_nr>1</period_nr>
-  <round_nr>2</round_nr>
-  <round_name />
-  <period_id>1</period_id>
-  <round_id>2</round_id>
-  <date>15.10.2026</date>
-  <time>19:00</time>
-  <team_home_id>55294</team_home_id>
-  <team_home_code>LENZ1</team_home_code>
-  <team_home_short_name>Langenzersdorf 1</team_home_short_name>
-  <team_away_id>55784</team_away_id>
-  <team_away_code>SSH1</team_away_code>
-  <team_away_short_name>Spar/Hobby Centre Vienna 1</team_away_short_name>
-  <club_home_id>224</club_home_id>
-  <club_home>ATUS Langenzersdorf</club_home>
-  <club_home_state>Wien</club_home_state>
-  <club_away_id>446</club_away_id>
-  <club_away>Spielgemeinschaft TTC Spar/Hobby Centre Vienna</club_away>
-  <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
-  <location>Vereinshalle Langenzersdorf</location>
-  <latitude>48.307684</latitude>
-  <longitude>16.352675</longitude>
-  <address>
-   <street>Gertrude-Liebhart-Straße 10</street>
-   <postal_code>2103</postal_code>
-   <city>Langenzersdorf</city>
-   <latitude>48.307684</latitude>
-   <longitude>16.352675</longitude>
   </address>
  </game>
  <game>
