@@ -65,7 +65,8 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
 .info{position:fixed; left:0; right:0; bottom:0; background:#1A1E23; color:#fff; padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px)); font-size:13px; line-height:1.4; z-index:10; display:flex; gap:10px; align-items:flex-start;}
 .info .x{margin-left:auto; border:0; background:rgba(255,255,255,.15); color:#fff; width:26px; height:26px; border-radius:50%; font:700 13px/1 var(--f-ui); flex:0 0 auto;}
 .info b{font-weight:800}
-.hint{font-size:11.5px; color:#5B6570; text-align:center; padding:4px 10px 90px;}
+.hint{font-size:11.5px; line-height:1.9; color:#5B6570; text-align:center; padding:4px 10px 90px;}
+.hint a{color:#0D5BA8; font-weight:700;}
 </style>
 </head>
 <body>
@@ -75,7 +76,7 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
   <div class="status" id="status"></div>
   <div class="problems" id="problems" hidden></div>
   <div class="canvas" id="canvas"></div>
-  <div class="hint">Mannschaft antippen: Weg hervorheben und Spieldaten anzeigen.</div>
+  <div class="hint">Mannschaft antippen: Weg hervorheben und Spieldaten anzeigen.<br><a href="index.html" id="toPC">Zur PC-Ansicht</a></div>
 </div>
 <div class="info" id="info" hidden><div id="infoText"></div><button class="x" id="infoX" type="button" aria-label="Schließen">✕</button></div>
 
@@ -294,6 +295,7 @@ document.getElementById("infoX").addEventListener("click",()=>{focusTeam="";focu
 function fit(){const w=Math.min(window.innerWidth,520);document.getElementById("app").style.zoom=window.innerWidth<=520?(w/WIDTH):1;}
 window.addEventListener("resize",fit); fit();
 
+document.getElementById("toPC").addEventListener("click",e=>{e.preventDefault();try{localStorage.setItem("ttcup-ansicht","pc");}catch(_){}location.href="index.html"+location.hash;});
 /* =================== Laden =================== */
 const getJSON=u=>fetch(u+(u.includes("?")?"&":"?")+"t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(u+": HTTP "+r.status);return r.json();});
 async function loadBewerb(id,keep){

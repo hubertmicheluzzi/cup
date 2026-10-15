@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>TT-CUP Turnierbaum</title>
+<script>
+/* Ansichtswahl: schmale Bildschirme (< 900 px) bekommen die Handy-Ansicht, außer jemand hat die PC-Ansicht gewählt */
+(function(){var w=null;try{w=localStorage.getItem("ttcup-ansicht");}catch(e){}
+  if(w==="handy"||(w!=="pc"&&window.innerWidth<900)){location.replace("handy.html"+location.hash);}})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&family=Archivo+Narrow:ital,wght@0,500;0,700;1,400;1,500&display=swap">
@@ -157,7 +162,7 @@ svg .jumps{display:none;}
       </div>
     </div>
     <div class="card"><h2>Hinweise</h2>
-      <p class="empty" style="margin:0">Ein Klick auf eine Mannschaft hebt ihren ganzen Weg hervor. Über einem Kästchen zeigt die Maus Termin und Spielort. Die Daten kommen automatisch zweimal täglich vom WTTV (morgens und abends).</p>
+      <p class="empty" style="margin:0">Ein Klick auf eine Mannschaft hebt ihren ganzen Weg hervor. Über einem Kästchen zeigt die Maus Termin und Spielort. Die Daten kommen automatisch zweimal täglich vom WTTV (morgens und abends). <a href="handy.html" id="toHandy">Zur Handy-Ansicht</a></p>
     </div>
   </div>
 </section>
@@ -453,6 +458,7 @@ function renderList(){
 }
 
 /* =================== Ansicht, Zoom =================== */
+document.getElementById("toHandy").addEventListener("click",e=>{e.preventDefault();try{localStorage.setItem("ttcup-ansicht","handy");}catch(_){}location.href="handy.html"+location.hash;});
 let view="baum";
 const vB=document.getElementById("v-baum"), vS=document.getElementById("v-spiele");
 function setView(v){view=v;vB.setAttribute("aria-pressed",String(v==="baum"));vS.setAttribute("aria-pressed",String(v==="spiele"));
