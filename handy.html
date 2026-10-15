@@ -14,7 +14,8 @@
 html,body{margin:0; background:#fff; color:#111; font-family:var(--f-ui); -webkit-text-size-adjust:100%;}
 [hidden]{display:none !important}
 .app{width:390px; margin:0 auto; position:relative;}
-.chips{display:flex; gap:5px; justify-content:space-between; overflow-x:auto; padding:10px 8px 8px; scrollbar-width:none; position:sticky; top:0; background:#fff; z-index:5; border-bottom:1px solid #eee;}
+.topbar{position:sticky; top:0; z-index:6; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.12);}
+.chips{display:flex; gap:5px; justify-content:space-between; overflow-x:auto; padding:10px 8px 8px; scrollbar-width:none; background:#fff; border-bottom:1px solid #eee;}
 .chips::-webkit-scrollbar{display:none}
 .chips button{flex:0 0 auto; font:700 13px/1 var(--f-ui); padding:8px 9px; min-width:30px; border-radius:99px; border:1px solid #D2D7DD; background:#fff; color:#111;}
 .chips button[aria-pressed="true"]{background:var(--c,#0D5BA8); border-color:var(--c,#0D5BA8); color:var(--fg,#fff);}
@@ -72,9 +73,11 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible; z-i
 </head>
 <body>
 <div class="app" id="app">
+  <div class="topbar">
   <div class="chips" id="chips" role="group" aria-label="Bewerb"></div>
   <div class="head"><div class="logo"><img src="assets/wttv-logo.png" alt="WTTV" width="101" height="30"></div><div><div class="t1" id="t1"></div><div class="t2" id="t2"></div></div></div>
   <div class="status" id="status"></div>
+  </div>
   <div class="problems" id="problems" hidden></div>
   <div class="canvas" id="canvas"></div>
   <div class="hint">Mannschaft antippen: Weg hervorheben und Spieldaten anzeigen.<br><a href="index.html" id="toPC">Zur PC-Ansicht</a></div>
@@ -316,7 +319,8 @@ function scrollToCurrent(){
   if(d<0)for(let i=7;i>=0&&d<0;i--)if(MATCHES.some(m=>m.date===i&&OUT[m.id].state==="done"))d=i;
   if(d<0)d=0;
   const r=strips[d].s.getBoundingClientRect();
-  window.scrollTo({top:Math.max(0,window.scrollY+r.top-window.innerHeight*0.35),behavior:"instant"});
+  const hdr=document.querySelector(".topbar").getBoundingClientRect().height;
+  window.scrollTo({top:Math.max(0,window.scrollY+r.top-hdr-(window.innerHeight-hdr)*0.3),behavior:"instant"});
 }
 /* =================== Laden =================== */
 const getJSON=u=>fetch(u+(u.includes("?")?"&":"?")+"t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(u+": HTTP "+r.status);return r.json();});
