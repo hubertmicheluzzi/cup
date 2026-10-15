@@ -27,17 +27,18 @@ html,body{margin:0; background:#fff; color:#111; font-family:var(--f-ui); -webki
 .status b{color:#111}
 .problems{margin:6px 10px; padding:8px 10px; border-left:3px solid #C25E00; background:#FFF6EE; font-size:12px;}
 .canvas{position:relative;}
-svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
-.strip{position:absolute; left:0; right:0; height:14px; font:italic 500 10px/14px var(--f-cell); color:#333; padding-left:8px;}
-.strip .n{font:700 9px/1 var(--f-ui); font-style:normal; margin-left:6px; padding:1px 5px; border-radius:7px; background:#fff; color:#333;}
+svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible; z-index:1;}
+.strip{position:absolute; z-index:0; left:0; right:0; height:14px; font:italic 500 10px/14px var(--f-cell); color:#333; padding-left:8px;}
+.stripl{position:absolute; z-index:3; left:0; height:14px; font:italic 500 10px/14px var(--f-cell); color:#333; padding:0 6px 0 8px; border-radius:0 7px 7px 0;}
+.stripl .n{font:700 9px/1 var(--f-ui); font-style:normal; margin-left:6px; padding:1px 5px; border-radius:7px; background:#fff; color:#333;}
 /* senkrechte Kästchen */
-.vs{position:absolute; width:14px; display:flex; flex-direction:column; cursor:pointer; transition:filter .15s;}
-.vs .ha{height:11px; margin-bottom:1px; display:grid; place-items:center; font:700 8px/1 var(--f-ui);}
-.vs .nm{height:43px; margin-bottom:1px; writing-mode:vertical-rl; display:flex; align-items:center; justify-content:center; font:700 11px/1 var(--f-cell); white-space:nowrap; overflow:hidden;}
-.vs .sc{height:13px; margin-bottom:1px; display:grid; place-items:center; font:800 10px/1 var(--f-ui); color:#fff;}
+.vs{position:absolute; z-index:2; width:14px; display:flex; flex-direction:column-reverse; cursor:pointer; transition:filter .15s;}
+.vs .ha{height:11px; margin-top:1px; display:grid; place-items:center; font:700 8px/1 var(--f-ui);}
+.vs .nm{height:43px; margin-top:1px; writing-mode:vertical-rl; transform:rotate(180deg); display:flex; align-items:center; justify-content:center; font:700 11px/1 var(--f-cell); white-space:nowrap; overflow:hidden;}
+.vs .sc{height:13px; margin-top:1px; display:grid; place-items:center; font:800 10px/1 var(--f-ui); color:#fff;}
 .vs .ex{height:5px; background:#D9DCE5;}
 /* waagrechte Karten */
-.card{position:absolute; width:64px; cursor:pointer; transition:filter .15s;}
+.card{position:absolute; z-index:2; width:64px; cursor:pointer; transition:filter .15s;}
 .card .row{display:grid; grid-template-columns:48px 16px; height:23px; margin-bottom:1px;}
 .card .nm{display:flex; align-items:center; justify-content:center; font:700 14px/1 var(--f-cell); white-space:nowrap; overflow:hidden; padding:0 2px;}
 .card .sc{display:grid; place-items:center; font:800 12px/1 var(--f-ui); color:#fff;}
@@ -49,11 +50,11 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible;}
 .k-lbf .nm{background:#FF0000; color:#fff;} .k-lbf .sc{background:#8D0418;}
 .nm.free{font-weight:400 !important; font-style:italic;}
 .nm.own{background:#FFFF00 !important; color:#C00000 !important;}
-.vlab{position:absolute; font:italic 500 8px/1 var(--f-cell); color:#333; white-space:nowrap;}
-.vlab.v{writing-mode:vertical-rl;}
+.vlab{position:absolute; z-index:2; font:italic 500 8px/1 var(--f-cell); color:#333; white-space:nowrap;}
+.vlab.v{writing-mode:vertical-rl; transform:rotate(180deg);}
 .vlab.h{background:#fff; padding:0 2px;}
 /* Platzierungen */
-.pl{position:absolute; display:grid; place-items:center; font:700 12px/1 var(--f-cell); white-space:nowrap; overflow:hidden; transition:filter .15s;}
+.pl{position:absolute; z-index:2; display:grid; place-items:center; font:700 12px/1 var(--f-cell); white-space:nowrap; overflow:hidden; transition:filter .15s;}
 .pl.p1{font-size:15px;}
 .pll{position:absolute; text-align:center; font:500 9px/1 var(--f-ui); color:#333;}
 /* Hervorhebung */
@@ -112,9 +113,9 @@ const R2ORDER=["M9","L1","M10","L2","M11","L3","M12","L4"];
 const vert=id=>BYID[id].date<=1;
 function slotX(id,k){const m=BYID[id];const i=m.date===0?(+id.slice(1)-1):R2ORDER.indexOf(id);
   const base=m.date===0?pc(i)-5:pc(i)-5+PITCH/4; return base+(k===0?-1:1)*(SW+SGAP)/2;}
-const BH=[SLOT_H+69,SLOT_H+59,119,119,119,119,119,119];
+const BH=[SLOT_H+69,SLOT_H+76,119,119,119,119,119,119];
 const Y0=[8]; for(const h of BH)Y0.push(Y0[Y0.length-1]+h);
-const ctop=id=>{const d=BYID[id].date;return Y0[d]+STRIP+(d===0?16:d===1?28:34);};
+const ctop=id=>{const d=BYID[id].date;return Y0[d]+(d===0?16:d===1?34:26);};   /* Terminleiste liegt am Ende jedes Termins (gespiegelt: oben) */
 const cbot=id=>ctop(id)+(vert(id)?SLOT_H:2*LH);
 const colof=id=>isWB(id)?"#111":"#E00000";
 const feeders=Object.fromEntries(MATCHES.map(m=>[m.id,m.s.filter(s=>s.src.t==="W").map(s=>s.src.m)]));
@@ -154,10 +155,15 @@ for(let d=2;d<8;d++){
     if(!moved)break;}
 }
 /* Platzierungen */
-const MID=WIDTH/2, FY=cbot("F");
-const LX=Math.min(Math.max(MID,cx.F-CW/2+MARGIN),cx.F+CW/2-MARGIN);
-const P1={w:90,h:28,y:FY+22}, P2={w:72,h:22,g:10,y:P1.y+28+20}, P3={w:64,h:16,g:10,y:P2.y+22+22};
-const CANVAS_H=P3.y+4*(P3.h+2)+20;
+/* Umgedreht: die Zeit läuft von unten nach oben, Finale und Siegertreppchen stehen oben */
+const MID=WIDTH/2;
+const LX=Math.min(Math.max(MID,cx.F-CW/2+MARGIN),cx.F+CW/2-MARGIN);   // gelbe Linie Finale -> Sieger
+const POD={w1:84,h1:28,w:62,h:22,g:6,y1:10,step:12};               // Treppchen
+const P3={w:64,h:16,g:10,y:84};                                     // Gruppen 5.-8.
+const TREE_BOTTOM=Y0[8];
+const TOPB=P3.y+4*(P3.h+2)+24;                                      // Finale-Termin beginnt unter den Gruppen
+const Yf=y=>TOPB+(TREE_BOTTOM-y);                                    // Spiegelung der Zeitachse
+const CANVAS_H=Yf(Y0[0])+12;
 
 /* =================== DOM aufbauen =================== */
 const canvas=document.getElementById("canvas"); canvas.style.height=CANVAS_H+"px";
@@ -166,11 +172,13 @@ const svg=document.createElementNS(NS,"svg"); svg.setAttribute("class","lines");
 const el=(t,c,p)=>{const e=document.createElement(t);if(c)e.className=c;if(p)p.appendChild(e);return e;};
 const sv=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
 const groups={}; for(const m of MATCHES)groups[m.id]=sv("g",{class:"m"},svg);
-const V=(g,x,y1,y2,c)=>sv("line",{x1:x,x2:x,y1:Math.min(y1,y2),y2:Math.max(y1,y2),stroke:c,"stroke-width":2,"stroke-linecap":"square"},g);
-const H=(g,y,x1,x2,c)=>sv("line",{x1:Math.min(x1,x2),x2:Math.max(x1,x2),y1:y,y2:y,stroke:c,"stroke-width":2,"stroke-linecap":"square"},g);
+const V=(g,x,y1,y2,c)=>sv("line",{x1:x,x2:x,y1:Math.min(Yf(y1),Yf(y2)),y2:Math.max(Yf(y1),Yf(y2)),stroke:c,"stroke-width":2,"stroke-linecap":"square"},g);
+const H=(g,y,x1,x2,c)=>sv("line",{x1:Math.min(x1,x2),x2:Math.max(x1,x2),y1:Yf(y),y2:Yf(y),stroke:c,"stroke-width":2,"stroke-linecap":"square"},g);
 // Termin-Streifen
 const strips=[];
-for(let d=0;d<8;d++){const s=el("div","strip",canvas);s.style.top=Y0[d]+"px";s.style.background=d%2?"#E9E9E9":"#D4D4D4";const t=el("span","",s);const n=el("span","n",s);n.hidden=true;strips.push({t,n});}
+for(let d=0;d<8;d++){const s=el("div","strip",canvas);s.style.top=Yf(Y0[d+1])+"px";   /* Leiste oben im Termin, wie eine Überschrift */s.style.background=d%2?"#E9E9E9":"#D4D4D4";
+  const lab=el("div","stripl",canvas);lab.style.top=Yf(Y0[d+1])+"px";lab.style.background=s.style.background;   /* Text liegt über den Linien */
+  const t=el("span","",lab);const n=el("span","n",lab);n.hidden=true;strips.push({t,n,s});}
 // Linien
 const barY={}, target={};
 for(const m of MATCHES){if(!vert(m.id))continue;
@@ -187,30 +195,35 @@ for(const n of MATCHES){
     for(const f of fs){V(groups[f],xout[f],barY[f]??cbot(f),jy,colof(f));H(groups[f],jy,xout[f],xin[n.id],colof(f));}
     V(groups[n.id],xin[n.id],jy,ctop(n.id),n.id==="F"?"#111":colof(n.id));}
 }
-sv("line",{x1:LX,x2:LX,y1:FY,y2:P1.y,stroke:"#E8C400","stroke-width":2},svg);
+sv("line",{x1:LX,x2:LX,y1:Yf(cbot("F")),y2:POD.y1+POD.h1,stroke:"#E8C400","stroke-width":2},svg);
 // Kästchen / Karten
 const SLOTS=[];
 for(const m of MATCHES){
   if(vert(m.id)){
-    m.s.forEach((s,k)=>{const kd=kindOf(s.src);const box=el("div","vs k-"+kd,canvas);box.style.left=(slotX(m.id,k)-SW/2)+"px";box.style.top=ctop(m.id)+"px";
+    m.s.forEach((s,k)=>{const kd=kindOf(s.src);const box=el("div","vs k-"+kd,canvas);box.style.left=(slotX(m.id,k)-SW/2)+"px";box.style.top=Yf(ctop(m.id)+SLOT_H)+"px";
       const ha=el("div","ha",box), nm=el("div","nm",box), sc=el("div","sc",box); el("div","ex",box);
-      if(s.src.t==="L"){const lb=el("div","vlab v",canvas);lb.textContent="V "+BYID[s.src.m].lab;lb.style.left=(slotX(m.id,k)-5)+"px";lb.style.top=(ctop(m.id)-2)+"px";lb.style.transform="translateY(-100%)";}
+      if(s.src.t==="L"){const lb=el("div","vlab v",canvas);lb.textContent="V "+BYID[s.src.m].lab;lb.style.left=(slotX(m.id,k)-5)+"px";lb.style.top=(Yf(ctop(m.id))+2)+"px";}
       SLOTS.push({m,k,box,ha,nm,sc,row:box});});
   }else{
-    const card=el("div","card",canvas);card.style.left=(cx[m.id]-CW/2)+"px";card.style.top=ctop(m.id)+"px";
+    const card=el("div","card",canvas);card.style.left=(cx[m.id]-CW/2)+"px";card.style.top=Yf(cbot(m.id))+"px";
     m.s.forEach((s,k)=>{const kd=kindOf(s.src);const row=el("div","row k-"+kd,card);const nm=el("div","nm",row), sc=el("div","sc",row);
       SLOTS.push({m,k,box:card,row,nm,sc,ha:null});
-      if(s.src.t==="L"){const lb=el("div","vlab h",canvas);lb.textContent="V "+BYID[s.src.m].lab;lb.style.left=(cx[m.id]-CW/2)+"px";lb.style.top=(cbot(m.id)+2)+"px";}});
+      if(s.src.t==="L"){const lb=el("div","vlab h",canvas);lb.textContent="V "+BYID[s.src.m].lab;lb.style.left=(cx[m.id]-CW/2)+"px";lb.style.top=(Yf(cbot(m.id))-2)+"px";lb.style.transform="translateY(-100%)";}});
   }
 }
 // Platzierungen
 const PL=[];
 function plBox(src,x,y,w,h,bg,fg,cls){const b=el("div","pl "+(cls||""),canvas);Object.assign(b.style,{left:x+"px",top:y+"px",width:w+"px",height:h+"px",background:bg,color:fg});PL.push({src,b});}
 function plLab(text,x,y,w){const l=el("div","pll",canvas);Object.assign(l.style,{left:x+"px",top:y+"px",width:w+"px"});l.textContent=text;}
-plBox(W("F"),MID-P1.w/2,P1.y,P1.w,P1.h,"#CA9C00","#fff","p1"); plLab("1. Platz",MID-P1.w/2,P1.y+P1.h+3,P1.w);
-[[L("F"),"#FF0000","2. Platz"],[L("L14"),"#DA00F1","3. Platz"],[L("L13"),"#8C0AC0","4. Platz"]].forEach(([src,bg,t],i)=>{const x=MID-(3*P2.w+2*P2.g)/2+i*(P2.w+P2.g);plBox(src,x,P2.y,P2.w,P2.h,bg,"#fff");plLab(t,x,P2.y+P2.h+3,P2.w);});
+// Siegertreppchen: 4. | 2. | 1. | 3. – der 1. Platz am höchsten, die gelbe Linie trifft ihn
+{ const x1=LX-8, y1=POD.y1;
+  const x2=x1-POD.g-POD.w, x4=x2-POD.g-POD.w, x3=x1+POD.w1+POD.g;
+  plBox(W("F"),x1,y1,POD.w1,POD.h1,"#CA9C00","#fff","p1"); plLab("1. Platz",x1,y1+POD.h1+3,POD.w1);
+  plBox(L("F"),x2,y1+POD.step,POD.w,POD.h,"#FF0000","#fff"); plLab("2. Platz",x2,y1+POD.step+POD.h+3,POD.w);
+  plBox(L("L14"),x3,y1+POD.step,POD.w,POD.h,"#DA00F1","#fff"); plLab("3. Platz",x3,y1+POD.step+POD.h+3,POD.w);
+  plBox(L("L13"),x4,y1+2*POD.step,POD.w,POD.h,"#8C0AC0","#fff"); plLab("4. Platz",x4,y1+2*POD.step+POD.h+3,POD.w); }
 [[[L("L11"),L("L12")],"#E7C8FF","5. Platz"],[[L("L9"),L("L10")],"#DCE9F6","6. Platz"],[[L("L5"),L("L6"),L("L7"),L("L8")],"#E2EFDA","7. Platz"],[[L("L1"),L("L2"),L("L3"),L("L4")],"#E6E6E6","8. Platz"]].forEach(([srcs,bg,t],i)=>{
-  const x=MID-(4*P3.w+3*P3.g)/2+i*(P3.w+P3.g); srcs.forEach((s,j)=>plBox(s,x,P3.y+j*(P3.h+2),P3.w,P3.h,bg,"#111")); plLab(t,x,P3.y+srcs.length*(P3.h+2)+1,P3.w);});
+  const x=LX-P3.g/2-2*P3.w-P3.g+i*(P3.w+P3.g); /* Lücke in der Mitte liegt auf der gelben Linie */ srcs.forEach((s,j)=>plBox(s,x,P3.y+j*(P3.h+2),P3.w,P3.h,bg,"#111")); plLab(t,x,P3.y+srcs.length*(P3.h+2)+1,P3.w);});
 
 /* =================== Daten & Logik =================== */
 let CFG=null, AUS=null, cur=null, DATA=null, teams=Array(16).fill(""), results={}, info={}, unassigned=[], OUT={};
@@ -296,6 +309,15 @@ function fit(){const w=Math.min(window.innerWidth,520);document.getElementById("
 window.addEventListener("resize",fit); fit();
 
 document.getElementById("toPC").addEventListener("click",e=>{e.preventDefault();try{localStorage.setItem("ttcup-ansicht","pc");}catch(_){}location.href="index.html"+location.hash;});
+/* Zum aktuellen Termin springen: erster Termin mit spielbereiten Paarungen, sonst der letzte mit Ergebnissen */
+function scrollToCurrent(){
+  let d=-1;
+  for(let i=0;i<8&&d<0;i++)if(MATCHES.some(m=>m.date===i&&OUT[m.id].state==="ready"))d=i;
+  if(d<0)for(let i=7;i>=0&&d<0;i--)if(MATCHES.some(m=>m.date===i&&OUT[m.id].state==="done"))d=i;
+  if(d<0)d=0;
+  const r=strips[d].s.getBoundingClientRect();
+  window.scrollTo({top:Math.max(0,window.scrollY+r.top-window.innerHeight*0.35),behavior:"instant"});
+}
 /* =================== Laden =================== */
 const getJSON=u=>fetch(u+(u.includes("?")?"&":"?")+"t="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(u+": HTTP "+r.status);return r.json();});
 async function loadBewerb(id,keep){
@@ -306,6 +328,7 @@ async function loadBewerb(id,keep){
   try{DATA=await getJSON("data/"+cur.id+".json");}catch(e){DATA=null;}
   if(!keep){focusTeam="";focusMatch="";}
   assign(); render();
+  if(!keep)scrollToCurrent();
 }
 (async()=>{
   try{[CFG,AUS]=await Promise.all([getJSON("data/bewerbe.json"),getJSON("data/auslosung.json")]);}
