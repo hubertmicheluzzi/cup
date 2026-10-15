@@ -14,9 +14,9 @@
 html,body{margin:0; background:#fff; color:#111; font-family:var(--f-ui); -webkit-text-size-adjust:100%;}
 [hidden]{display:none !important}
 .app{width:390px; margin:0 auto; position:relative;}
-.chips{display:flex; gap:6px; overflow-x:auto; padding:10px 10px 8px; scrollbar-width:none; position:sticky; top:0; background:#fff; z-index:5; border-bottom:1px solid #eee;}
+.chips{display:flex; gap:5px; justify-content:space-between; overflow-x:auto; padding:10px 8px 8px; scrollbar-width:none; position:sticky; top:0; background:#fff; z-index:5; border-bottom:1px solid #eee;}
 .chips::-webkit-scrollbar{display:none}
-.chips button{flex:0 0 auto; font:700 13px/1 var(--f-ui); padding:8px 11px; border-radius:99px; border:1px solid #D2D7DD; background:#fff; color:#111;}
+.chips button{flex:0 0 auto; font:700 13px/1 var(--f-ui); padding:8px 9px; min-width:30px; border-radius:99px; border:1px solid #D2D7DD; background:#fff; color:#111;}
 .chips button[aria-pressed="true"]{background:var(--c,#0D5BA8); border-color:var(--c,#0D5BA8); color:var(--fg,#fff);}
 .head{height:58px; background:var(--bewerb); display:flex; align-items:center; gap:12px; padding:0 10px;}
 .logo{height:40px; padding:5px 8px; background:#fff; border-radius:5px; display:flex; align-items:center;}
@@ -309,7 +309,7 @@ async function loadBewerb(id,keep){
   try{[CFG,AUS]=await Promise.all([getJSON("data/bewerbe.json"),getJSON("data/auslosung.json")]);}
   catch(e){const pb=document.getElementById("problems");pb.hidden=false;pb.textContent="Daten konnten nicht geladen werden ("+e.message+").";return;}
   const box=document.getElementById("chips");
-  for(const b of CFG.bewerbe){const bt=el("button","",box);bt.type="button";bt.dataset.id=b.id;bt.textContent=b.name;bt.style.setProperty("--c",b.farbe);bt.style.setProperty("--fg",headFg(b.farbe));bt.setAttribute("aria-pressed","false");bt.addEventListener("click",()=>{loadBewerb(b.id);bt.scrollIntoView({inline:"center",block:"nearest",behavior:"smooth"});});}
+  for(const b of CFG.bewerbe){const bt=el("button","",box);bt.type="button";bt.dataset.id=b.id;bt.textContent=b.name.replace(/^Bewerb\s+/,"").replace(/^Senioren\s+/,"Sen ");bt.title=b.name;bt.style.setProperty("--c",b.farbe);bt.style.setProperty("--fg",headFg(b.farbe));bt.setAttribute("aria-pressed","false");bt.addEventListener("click",()=>{loadBewerb(b.id);bt.scrollIntoView({inline:"center",block:"nearest",behavior:"smooth"});});}
   const start=(location.hash||"").slice(1);
   await loadBewerb(CFG.bewerbe.some(b=>b.id===start)?start:CFG.bewerbe[0].id);
   setInterval(()=>{if(!document.hidden)loadBewerb(cur.id,true);},30*60*1000);
