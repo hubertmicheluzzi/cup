@@ -40,7 +40,7 @@ svg.lines{position:absolute; inset:0; pointer-events:none; overflow:visible; z-i
 .vs .ex{height:5px; background:#D9DCE5;}
 /* waagrechte Karten */
 .card{position:absolute; z-index:2; width:64px; cursor:pointer; transition:filter .15s;}
-.card .row{display:grid; grid-template-columns:48px 16px; height:23px; margin-bottom:1px;}
+.card .row{display:grid; grid-template-columns:3px 45px 16px; height:23px; margin-bottom:1px;}
 .card .nm{display:flex; align-items:center; justify-content:center; font:700 14px/1 var(--f-cell); white-space:nowrap; overflow:hidden; padding:0 2px;}
 .card .sc{display:grid; place-items:center; font:800 12px/1 var(--f-ui); color:#fff;}
 .ha.H{background:#FFD4FE;} .ha.A{background:#A5FFEE;}
@@ -209,8 +209,8 @@ for(const m of MATCHES){
       SLOTS.push({m,k,box,ha,nm,sc,row:box});});
   }else{
     const card=el("div","card",canvas);card.style.left=(cx[m.id]-CW/2)+"px";card.style.top=Yf(cbot(m.id))+"px";
-    m.s.forEach((s,k)=>{const kd=kindOf(s.src);const row=el("div","row k-"+kd,card);const nm=el("div","nm",row), sc=el("div","sc",row);
-      SLOTS.push({m,k,box:card,row,nm,sc,ha:null});
+    m.s.forEach((s,k)=>{const kd=kindOf(s.src);const row=el("div","row k-"+kd,card);const st=el("div","ha",row);const nm=el("div","nm",row), sc=el("div","sc",row);
+      SLOTS.push({m,k,box:card,row,nm,sc,ha:st,strip:true});
       if(s.src.t==="L"){const lb=el("div","vlab h",canvas);lb.textContent="V "+BYID[s.src.m].lab;lb.style.left=(cx[m.id]-CW/2)+"px";lb.style.top=(Yf(cbot(m.id))-2)+"px";lb.style.transform="translateY(-100%)";}});
   }
 }
@@ -268,7 +268,7 @@ function render(){
     if(vert(s.m.id))fitText(s.nm,txt,42,11);else fitText(s.nm,txt,44,14);
     s.nm.classList.toggle("free",isFree(team)); s.nm.classList.toggle("own",isOwn(team));
     s.sc.textContent=r?String(r.s[s.k]):"";
-    if(s.ha){let ha=s.m.s[s.k].ha||"";if(inf)ha=(s.k===inf.hi)?"H":"A";s.ha.textContent=ha;s.ha.className="ha "+ha;}
+    if(s.ha){let ha=s.m.s[s.k].ha||"";if(inf)ha=(s.k===inf.hi)?"H":"A";if(!s.strip)s.ha.textContent=ha;s.ha.className="ha "+ha;}
     s.team=team;
     s.row.classList.toggle("on",!!focusTeam&&key(team)===focusTeam);
   }
