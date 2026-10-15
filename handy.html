@@ -209,8 +209,8 @@ for(const m of MATCHES){
       SLOTS.push({m,k,box,ha,nm,sc,row:box});});
   }else{
     const card=el("div","card",canvas);card.style.left=(cx[m.id]-CW/2)+"px";card.style.top=Yf(cbot(m.id))+"px";
-    m.s.forEach((s,k)=>{const kd=kindOf(s.src);const row=el("div","row k-"+kd,card);const st=el("div","ha",row);const nm=el("div","nm",row), sc=el("div","sc",row);
-      SLOTS.push({m,k,box:card,row,nm,sc,ha:st,strip:true});
+    m.s.forEach((s,k)=>{const kd=kindOf(s.src);const row=el("div","row k-"+kd,card);const st=m.id==="F"?null:el("div","ha",row);if(!st)row.style.gridTemplateColumns="48px 16px";const nm=el("div","nm",row), sc=el("div","sc",row);
+      SLOTS.push({m,k,box:card,row,nm,sc,ha:st,strip:!!st});
       if(s.src.t==="L"){const lb=el("div","vlab h",canvas);lb.textContent="V "+BYID[s.src.m].lab;lb.style.left=(cx[m.id]-CW/2)+"px";lb.style.top=(Yf(cbot(m.id))-2)+"px";lb.style.transform="translateY(-100%)";}});
   }
 }
