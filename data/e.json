@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-13T21:51:32Z",
+ "stand": "2026-10-15T09:57:48Z",
  "bewerb": {
   "id": "e",
   "name": "Bewerb E",
@@ -283,10 +283,10 @@
    "gastName": "Olympic 1",
    "heimVerein": "TTK Naturfreunde Stadlau",
    "gastVerein": "ASVÖ TTC Olympic Wien",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
    "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteGast": 4
   },
   {
    "gameId": 455543,

@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-14T10:15:56Z",
+ "stand": "2026-10-15T09:57:48Z",
  "bewerb": {
   "id": "a",
   "name": "Bewerb A",
@@ -99,9 +99,9 @@
    "gastName": "SPG Wohnpark Alt-Erlaa - Future 1",
    "heimVerein": "Lehrersportverein",
    "gastVerein": "SPG Wohnpark Alt-Erlaa - Future",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
+   "punkteHeim": 5,
    "punkteGast": 0
   },
   {

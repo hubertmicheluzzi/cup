@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-14T20:43:01Z",
+ "stand": "2026-10-15T09:57:48Z",
  "bewerb": {
   "id": "d",
   "name": "Bewerb D",
@@ -64,7 +64,7 @@
    "heimVerein": "Spielgemeinschaft TTC Spar/Hobby Centre Vienna",
    "gastVerein": "SC Hakoah",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 0,
    "punkteGast": 4
   },
@@ -99,10 +99,10 @@
    "gastName": "Kontakt 1",
    "heimVerein": "TTK Eden",
    "gastVerein": "TT Campus Brigittenau Kontakt Wien",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 3,
+   "punkteGast": 4
   },
   {
    "gameId": 455480,
