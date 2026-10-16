@@ -438,8 +438,8 @@
   </game>
  <game>
   <game_id>455543</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
+  <played>1</played>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -460,7 +460,7 @@
   <club_away>ATUS Langenzersdorf</club_away>
   <club_away_state>Wien</club_away_state>
   <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_away>4</matches_won_away>
   <location>Liniengasse</location>
   <latitude>48.193093</latitude>
   <longitude>16.346082</longitude>
@@ -471,46 +471,10 @@
    <latitude>48.193093</latitude>
    <longitude>16.346082</longitude>
   </address>
- </game>
- <game>
-  <game_id>455545</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
-  <period_nr>1</period_nr>
-  <round_nr>2</round_nr>
-  <round_name />
-  <period_id>1</period_id>
-  <round_id>2</round_id>
-  <date>15.10.2026</date>
-  <time>19:00</time>
-  <team_home_id>55521</team_home_id>
-  <team_home_code>EDEN2</team_home_code>
-  <team_home_short_name>TTK Eden 2</team_home_short_name>
-  <team_away_id>55295</team_away_id>
-  <team_away_code>LENZ2</team_away_code>
-  <team_away_short_name>Langenzersdorf 2</team_away_short_name>
-  <club_home_id>413</club_home_id>
-  <club_home>TTK Eden</club_home>
-  <club_home_state>Wien</club_home_state>
-  <club_away_id>224</club_away_id>
-  <club_away>ATUS Langenzersdorf</club_away>
-  <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
-  <location>TTK Eden</location>
-  <latitude>48.248976</latitude>
-  <longitude>16.415176</longitude>
-  <address>
-   <street>An der Schanze 7</street>
-   <postal_code>1210</postal_code>
-   <city>Wien</city>
-   <latitude>48.248976</latitude>
-   <longitude>16.415176</longitude>
-  </address>
- </game>
+  </game>
  <game>
   <game_id>455547</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -531,8 +495,8 @@
   <club_away_id>413</club_away_id>
   <club_away>TTK Eden</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>1</matches_won_home>
+  <matches_won_away>4</matches_won_away>
   <location>Naturfreunde Stadlau</location>
   <latitude>48.229447</latitude>
   <longitude>16.450807</longitude>
@@ -543,7 +507,43 @@
    <latitude>48.229447</latitude>
    <longitude>16.450807</longitude>
   </address>
- </game>
+  </game>
+ <game>
+  <game_id>455545</game_id>
+  <played>1</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>15.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55521</team_home_id>
+  <team_home_code>EDEN2</team_home_code>
+  <team_home_short_name>TTK Eden 2</team_home_short_name>
+  <team_away_id>55295</team_away_id>
+  <team_away_code>LENZ2</team_away_code>
+  <team_away_short_name>Langenzersdorf 2</team_away_short_name>
+  <club_home_id>413</club_home_id>
+  <club_home>TTK Eden</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>224</club_away_id>
+  <club_away>ATUS Langenzersdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>4</matches_won_home>
+  <matches_won_away>3</matches_won_away>
+  <location>TTK Eden</location>
+  <latitude>48.248976</latitude>
+  <longitude>16.415176</longitude>
+  <address>
+   <street>An der Schanze 7</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.248976</latitude>
+   <longitude>16.415176</longitude>
+  </address>
+  </game>
  <game>
   <game_id>455550</game_id>
   <played>0</played>

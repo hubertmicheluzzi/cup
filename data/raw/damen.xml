@@ -7,7 +7,7 @@
  <game>
   <game_id>455095</game_id>
   <played>1</played>
-  <confirmed>0</confirmed>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -40,42 +40,6 @@
    <longitude>16.415176</longitude>
   </address>
   </game>
- <game>
-  <game_id>455096</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
-  <period_nr>1</period_nr>
-  <round_nr>2</round_nr>
-  <round_name />
-  <period_id>1</period_id>
-  <round_id>2</round_id>
-  <date>16.10.2026</date>
-  <time>19:00</time>
-  <team_home_id>55286</team_home_id>
-  <team_home_code>LENZ2</team_home_code>
-  <team_home_short_name>Langenzersdorf 2</team_home_short_name>
-  <team_away_id>55847</team_away_id>
-  <team_away_code>OLYM1</team_away_code>
-  <team_away_short_name>Olympic 1</team_away_short_name>
-  <club_home_id>224</club_home_id>
-  <club_home>ATUS Langenzersdorf</club_home>
-  <club_home_state>Wien</club_home_state>
-  <club_away_id>199</club_away_id>
-  <club_away>ASVÖ TTC Olympic Wien</club_away>
-  <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
-  <location>NMS Langenzersdorf</location>
-  <latitude>48.308377</latitude>
-  <longitude>16.355333</longitude>
-  <address>
-   <street>Klosterneuburgerstraße 12</street>
-   <postal_code>2103</postal_code>
-   <city>Langenzersdorf</city>
-   <latitude>48.308377</latitude>
-   <longitude>16.355333</longitude>
-  </address>
- </game>
  <game>
   <game_id>455098</game_id>
   <played>0</played>
@@ -146,6 +110,42 @@
    <city>Wien</city>
    <latitude>48.18257</latitude>
    <longitude>16.338125</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455096</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>2</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>2</round_id>
+  <date>28.10.2026</date>
+  <time>19:00</time>
+  <team_home_id>55286</team_home_id>
+  <team_home_code>LENZ2</team_home_code>
+  <team_home_short_name>Langenzersdorf 2</team_home_short_name>
+  <team_away_id>55847</team_away_id>
+  <team_away_code>OLYM1</team_away_code>
+  <team_away_short_name>Olympic 1</team_away_short_name>
+  <club_home_id>224</club_home_id>
+  <club_home>ATUS Langenzersdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>199</club_away_id>
+  <club_away>ASVÖ TTC Olympic Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Vereinshalle Langenzersdorf</location>
+  <latitude>48.307684</latitude>
+  <longitude>16.352675</longitude>
+  <address>
+   <street>Gertrude-Liebhart-Straße 10</street>
+   <postal_code>2103</postal_code>
+   <city>Langenzersdorf</city>
+   <latitude>48.307684</latitude>
+   <longitude>16.352675</longitude>
   </address>
  </game>
 </games_list>

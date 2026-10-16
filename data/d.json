@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-15T09:57:48Z",
+ "stand": "2026-10-16T09:52:48Z",
  "bewerb": {
   "id": "d",
   "name": "Bewerb D",
@@ -117,10 +117,10 @@
    "gastName": "SG Post-Floridsdorf 1",
    "heimVerein": "ATUS Langenzersdorf",
    "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 3
   }
  ]
 }

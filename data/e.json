@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-15T20:21:31Z",
+ "stand": "2026-10-16T09:52:48Z",
  "bewerb": {
   "id": "e",
   "name": "Bewerb E",
@@ -319,28 +319,10 @@
    "gastName": "Langenzersdorf 3",
    "heimVerein": "Union Döbling",
    "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
-   "bestaetigt": false,
+   "gespielt": true,
+   "bestaetigt": true,
    "punkteHeim": 0,
-   "punkteGast": 0
-  },
-  {
-   "gameId": 455545,
-   "runde": 2,
-   "rundeName": "",
-   "periode": 1,
-   "datum": "15.10.2026",
-   "zeit": "19:00",
-   "heim": "EDEN2",
-   "gast": "LENZ2",
-   "heimName": "TTK Eden 2",
-   "gastName": "Langenzersdorf 2",
-   "heimVerein": "TTK Eden",
-   "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteGast": 4
   },
   {
    "gameId": 455547,
@@ -355,10 +337,28 @@
    "gastName": "TTK Eden 1",
    "heimVerein": "TTK Naturfreunde Stadlau",
    "gastVerein": "TTK Eden",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 1,
+   "punkteGast": 4
+  },
+  {
+   "gameId": 455545,
+   "runde": 2,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "15.10.2026",
+   "zeit": "19:00",
+   "heim": "EDEN2",
+   "gast": "LENZ2",
+   "heimName": "TTK Eden 2",
+   "gastName": "Langenzersdorf 2",
+   "heimVerein": "TTK Eden",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": true,
+   "bestaetigt": false,
+   "punkteHeim": 4,
+   "punkteGast": 3
   },
   {
    "gameId": 455550,

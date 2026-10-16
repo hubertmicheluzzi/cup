@@ -222,7 +222,7 @@
   </game>
  <game>
   <game_id>455864</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -243,8 +243,8 @@
   <club_away_id>418</club_away_id>
   <club_away>SC Hakoah</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>4</matches_won_home>
+  <matches_won_away>3</matches_won_away>
   <location>Naturfreunde Stadlau</location>
   <latitude>48.229447</latitude>
   <longitude>16.450807</longitude>
@@ -255,7 +255,7 @@
    <latitude>48.229447</latitude>
    <longitude>16.450807</longitude>
   </address>
- </game>
+  </game>
  <game>
   <game_id>455799</game_id>
   <played>0</played>
