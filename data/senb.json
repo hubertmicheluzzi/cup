@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-14T20:43:01Z",
+ "stand": "2026-10-16T19:57:58Z",
  "bewerb": {
   "id": "senb",
   "name": "Senioren B",
@@ -127,10 +127,10 @@
    "gastName": "Langenzersdorf 1",
    "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
    "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
    "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteGast": 5
   },
   {
    "gameId": 455608,
@@ -163,9 +163,9 @@
    "gastName": "UKJ Tyrolia 1",
    "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
    "gastVerein": "UKJ Tyrolia",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 5,
    "punkteGast": 0
   }
  ]

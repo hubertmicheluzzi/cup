@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-15T20:21:31Z",
+ "stand": "2026-10-16T19:57:58Z",
  "bewerb": {
   "id": "a",
   "name": "Bewerb A",
@@ -64,7 +64,7 @@
    "heimVerein": "TTK Naturfreunde Stadlau",
    "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 5,
    "punkteGast": 0
   },
