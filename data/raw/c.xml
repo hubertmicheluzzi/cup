@@ -474,7 +474,7 @@
   </game>
  <game>
   <game_id>455417</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -495,8 +495,8 @@
   <club_away_id>413</club_away_id>
   <club_away>TTK Eden</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>2</matches_won_home>
+  <matches_won_away>4</matches_won_away>
   <location>Olympic VS Bunteschule / Turnhalle</location>
   <latitude>48.231458</latitude>
   <longitude>16.363322</longitude>
@@ -507,5 +507,5 @@
    <latitude>48.231458</latitude>
    <longitude>16.363322</longitude>
   </address>
- </game>
+  </game>
 </games_list>

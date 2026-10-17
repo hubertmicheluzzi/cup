@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-15T20:21:31Z",
+ "stand": "2026-10-17T09:24:23Z",
  "bewerb": {
   "id": "c",
   "name": "Bewerb C",
@@ -332,10 +332,10 @@
    "gastName": "TTK Eden 1",
    "heimVerein": "ASVÖ TTC Olympic Wien",
    "gastVerein": "TTK Eden",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 2,
+   "punkteGast": 4
   }
  ]
 }

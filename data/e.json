@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-16T19:57:58Z",
+ "stand": "2026-10-17T09:24:23Z",
  "bewerb": {
   "id": "e",
   "name": "Bewerb E",
@@ -356,7 +356,7 @@
    "heimVerein": "TTK Eden",
    "gastVerein": "ATUS Langenzersdorf",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 3
   },
@@ -373,10 +373,10 @@
    "gastName": "UKJ Tyrolia 1",
    "heimVerein": "TT Campus Brigittenau Kontakt Wien",
    "gastVerein": "UKJ Tyrolia",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "gespielt": true,
+   "bestaetigt": true,
+   "punkteHeim": 4,
+   "punkteGast": 2
   }
  ]
 }
