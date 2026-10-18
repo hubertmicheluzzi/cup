@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-16T19:57:58Z",
+ "stand": "2026-10-18T19:26:32Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -232,10 +232,10 @@
    "gastName": "ASKÖ TT 14 1",
    "heimVerein": "Lehrersportverein",
    "gastVerein": "ASKÖ Tischtennis Wien 14",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 2,
+   "punkteGast": 4
   },
   {
    "gameId": 455737,

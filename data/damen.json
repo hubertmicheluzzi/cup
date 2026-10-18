@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-16T09:52:48Z",
+ "stand": "2026-10-18T19:26:32Z",
  "bewerb": {
   "id": "damen",
   "name": "Damen",
@@ -81,9 +81,9 @@
    "gastName": "Langenzersdorf 4",
    "heimVerein": "ATUS Langenzersdorf",
    "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
+   "punkteHeim": 5,
    "punkteGast": 0
   },
   {

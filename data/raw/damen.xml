@@ -42,7 +42,7 @@
   </game>
  <game>
   <game_id>455098</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
@@ -63,7 +63,7 @@
   <club_away_id>224</club_away_id>
   <club_away>ATUS Langenzersdorf</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
+  <matches_won_home>5</matches_won_home>
   <matches_won_away>0</matches_won_away>
   <location>NMS Langenzersdorf</location>
   <latitude>48.308377</latitude>
@@ -75,7 +75,7 @@
    <latitude>48.308377</latitude>
    <longitude>16.355333</longitude>
   </address>
- </game>
+  </game>
  <game>
   <game_id>455097</game_id>
   <played>0</played>
