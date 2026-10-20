@@ -101,15 +101,15 @@
   <club_away_state>Wien</club_away_state>
   <matches_won_home>0</matches_won_home>
   <matches_won_away>0</matches_won_away>
-  <location>Berufsschule</location>
-  <latitude>48.18257</latitude>
-  <longitude>16.338125</longitude>
+  <location>Hakoah</location>
+  <latitude>48.207277</latitude>
+  <longitude>16.428552</longitude>
   <address>
-   <street>Längenfeldgasse 13-15</street>
-   <postal_code>1120</postal_code>
+   <street>Wehlistr. 326</street>
+   <postal_code>1020</postal_code>
    <city>Wien</city>
-   <latitude>48.18257</latitude>
-   <longitude>16.338125</longitude>
+   <latitude>48.207277</latitude>
+   <longitude>16.428552</longitude>
   </address>
  </game>
  <game>
