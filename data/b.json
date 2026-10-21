@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-19T10:48:26Z",
+ "stand": "2026-10-21T10:12:18Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -215,7 +215,7 @@
    "heimVerein": "ASVÖ TTC Olympic Wien",
    "gastVerein": "TT Campus Brigittenau Kontakt Wien",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 3
   },
