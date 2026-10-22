@@ -508,4 +508,148 @@
    <longitude>16.363322</longitude>
   </address>
   </game>
+ <game>
+  <game_id>455425</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>16.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55782</team_home_id>
+  <team_home_code>SSH1</team_home_code>
+  <team_home_short_name>Spar/Hobby Centre Vienna 1</team_home_short_name>
+  <team_away_id>55127</team_away_id>
+  <team_away_code>KONT1</team_away_code>
+  <team_away_short_name>Kontakt 1</team_away_short_name>
+  <club_home_id>446</club_home_id>
+  <club_home>Spielgemeinschaft TTC Spar/Hobby Centre Vienna</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>148</club_away_id>
+  <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>TTC Spar neu</location>
+  <latitude>48.283068</latitude>
+  <longitude>16.414364</longitude>
+  <address>
+   <street>Brünner Straße 184</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.283068</latitude>
+   <longitude>16.414364</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455423</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>18.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55657</team_home_id>
+  <team_home_code>SGPF1</team_home_code>
+  <team_home_short_name>SG Post-Floridsdorf 1</team_home_short_name>
+  <team_away_id>55245</team_away_id>
+  <team_away_code>DOEB1</team_away_code>
+  <team_away_short_name>Union Döbling 1</team_away_short_name>
+  <club_home_id>1351</club_home_id>
+  <club_home>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>394</club_away_id>
+  <club_away>Union Döbling</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>POST SV Wien</location>
+  <latitude>48.265071</latitude>
+  <longitude>16.399919</longitude>
+  <address>
+   <street>Bahnsteggasse 17-23</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.265071</latitude>
+   <longitude>16.399919</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455426</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>18.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55254</team_home_id>
+  <team_home_code>NFS1</team_home_code>
+  <team_home_short_name>Naturfreunde Stadlau 1</team_home_short_name>
+  <team_away_id>55292</team_away_id>
+  <team_away_code>LENZ1</team_away_code>
+  <team_away_short_name>Langenzersdorf 1</team_away_short_name>
+  <club_home_id>427</club_home_id>
+  <club_home>TTK Naturfreunde Stadlau</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>224</club_away_id>
+  <club_away>ATUS Langenzersdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Naturfreunde Stadlau</location>
+  <latitude>48.229447</latitude>
+  <longitude>16.450807</longitude>
+  <address>
+   <street>Erzherzog-Karl-Straße 108</street>
+   <postal_code>1220</postal_code>
+   <city>Wien</city>
+   <latitude>48.229447</latitude>
+   <longitude>16.450807</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455424</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>20.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55848</team_home_id>
+  <team_home_code>OLYM1</team_home_code>
+  <team_home_short_name>Olympic 1</team_home_short_name>
+  <team_away_id>55879</team_away_id>
+  <team_away_code>LSV1</team_away_code>
+  <team_away_short_name>Lehrersportverein 1</team_away_short_name>
+  <club_home_id>199</club_home_id>
+  <club_home>ASVÖ TTC Olympic Wien</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>425</club_away_id>
+  <club_away>Lehrersportverein</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Olympic VS Bunteschule / Turnhalle</location>
+  <latitude>48.231458</latitude>
+  <longitude>16.363322</longitude>
+  <address>
+   <street>Brigittenauer Lände 66</street>
+   <postal_code>1200</postal_code>
+   <city>Wien</city>
+   <latitude>48.231458</latitude>
+   <longitude>16.363322</longitude>
+  </address>
+ </game>
 </games_list>

@@ -580,4 +580,148 @@
    <longitude>16.37039</longitude>
   </address>
   </game>
+ <game>
+  <game_id>455553</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>17.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55417</team_home_id>
+  <team_home_code>TT141</team_home_code>
+  <team_home_short_name>ASKÖ TT 14 1</team_home_short_name>
+  <team_away_id>55697</team_away_id>
+  <team_away_code>HAK1</team_away_code>
+  <team_away_short_name>Hakoah 1</team_away_short_name>
+  <club_home_id>423</club_home_id>
+  <club_home>ASKÖ Tischtennis Wien 14</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>418</club_away_id>
+  <club_away>SC Hakoah</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>ASKÖ Sportzentrum Penzing</location>
+  <latitude>48.196632</latitude>
+  <longitude>16.297034</longitude>
+  <address>
+   <street>Marcusgasse 9</street>
+   <postal_code>1140</postal_code>
+   <city>Wien</city>
+   <latitude>48.196632</latitude>
+   <longitude>16.297034</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455551</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>18.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55257</team_home_id>
+  <team_home_code>NFS2</team_home_code>
+  <team_home_short_name>Naturfreunde Stadlau 2</team_home_short_name>
+  <team_away_id>55521</team_away_id>
+  <team_away_code>EDEN2</team_away_code>
+  <team_away_short_name>TTK Eden 2</team_away_short_name>
+  <club_home_id>427</club_home_id>
+  <club_home>TTK Naturfreunde Stadlau</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>413</club_away_id>
+  <club_away>TTK Eden</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Naturfreunde Stadlau</location>
+  <latitude>48.229447</latitude>
+  <longitude>16.450807</longitude>
+  <address>
+   <street>Erzherzog-Karl-Straße 108</street>
+   <postal_code>1220</postal_code>
+   <city>Wien</city>
+   <latitude>48.229447</latitude>
+   <longitude>16.450807</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455552</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>19.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55256</team_home_id>
+  <team_home_code>NFS1</team_home_code>
+  <team_home_short_name>Naturfreunde Stadlau 1</team_home_short_name>
+  <team_away_id>55294</team_away_id>
+  <team_away_code>LENZ1</team_away_code>
+  <team_away_short_name>Langenzersdorf 1</team_away_short_name>
+  <club_home_id>427</club_home_id>
+  <club_home>TTK Naturfreunde Stadlau</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>224</club_away_id>
+  <club_away>ATUS Langenzersdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Naturfreunde Stadlau</location>
+  <latitude>48.229447</latitude>
+  <longitude>16.450807</longitude>
+  <address>
+   <street>Erzherzog-Karl-Straße 108</street>
+   <postal_code>1220</postal_code>
+   <city>Wien</city>
+   <latitude>48.229447</latitude>
+   <longitude>16.450807</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455554</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>19.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55342</team_home_id>
+  <team_home_code>DOEB1</team_home_code>
+  <team_home_short_name>Union Döbling 1</team_home_short_name>
+  <team_away_id>55129</team_away_id>
+  <team_away_code>KONT1</team_away_code>
+  <team_away_short_name>Kontakt 1</team_away_short_name>
+  <club_home_id>394</club_home_id>
+  <club_home>Union Döbling</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>148</club_away_id>
+  <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Liniengasse</location>
+  <latitude>48.193093</latitude>
+  <longitude>16.346082</longitude>
+  <address>
+   <street>Liniengasse 13</street>
+   <postal_code>1060</postal_code>
+   <city>Wien</city>
+   <latitude>48.193093</latitude>
+   <longitude>16.346082</longitude>
+  </address>
+ </game>
 </games_list>

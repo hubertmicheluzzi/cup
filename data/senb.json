@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-18T09:39:34Z",
+ "stand": "2026-10-22T10:14:00Z",
  "bewerb": {
   "id": "senb",
   "name": "Senioren B",
@@ -166,6 +166,42 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 5,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455616,
+   "runde": 3,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.11.2026",
+   "zeit": "19:00",
+   "heim": "HAK1",
+   "gast": "LENZ2",
+   "heimName": "Hakoah 1",
+   "gastName": "Langenzersdorf 2",
+   "heimVerein": "SC Hakoah",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455615,
+   "runde": 3,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "18.11.2026",
+   "zeit": "19:00",
+   "heim": "SGPF1",
+   "gast": "DOEB1",
+   "heimName": "SG Post-Floridsdorf 1",
+   "gastName": "Union Döbling 1",
+   "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gastVerein": "Union Döbling",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
    "punkteGast": 0
   }
  ]

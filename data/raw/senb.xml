@@ -220,4 +220,76 @@
    <longitude>16.399919</longitude>
   </address>
   </game>
+ <game>
+  <game_id>455616</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>16.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55698</team_home_id>
+  <team_home_code>HAK1</team_home_code>
+  <team_home_short_name>Hakoah 1</team_home_short_name>
+  <team_away_id>55300</team_away_id>
+  <team_away_code>LENZ2</team_away_code>
+  <team_away_short_name>Langenzersdorf 2</team_away_short_name>
+  <club_home_id>418</club_home_id>
+  <club_home>SC Hakoah</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>224</club_away_id>
+  <club_away>ATUS Langenzersdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Hakoah</location>
+  <latitude>48.207277</latitude>
+  <longitude>16.428552</longitude>
+  <address>
+   <street>Wehlistr. 326</street>
+   <postal_code>1020</postal_code>
+   <city>Wien</city>
+   <latitude>48.207277</latitude>
+   <longitude>16.428552</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455615</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>18.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55660</team_home_id>
+  <team_home_code>SGPF1</team_home_code>
+  <team_home_short_name>SG Post-Floridsdorf 1</team_home_short_name>
+  <team_away_id>55244</team_away_id>
+  <team_away_code>DOEB1</team_away_code>
+  <team_away_short_name>Union Döbling 1</team_away_short_name>
+  <club_home_id>1351</club_home_id>
+  <club_home>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>394</club_away_id>
+  <club_away>Union Döbling</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>POST SV Wien</location>
+  <latitude>48.265071</latitude>
+  <longitude>16.399919</longitude>
+  <address>
+   <street>Bahnsteggasse 17-23</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.265071</latitude>
+   <longitude>16.399919</longitude>
+  </address>
+ </game>
 </games_list>
