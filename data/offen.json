@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-23T10:06:59Z",
+ "stand": "2026-10-24T19:29:56Z",
  "bewerb": {
   "id": "offen",
   "name": "Offen",
@@ -100,7 +100,7 @@
    "heimVerein": "ATUS Langenzersdorf",
    "gastVerein": "Lehrersportverein",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 1
   },
