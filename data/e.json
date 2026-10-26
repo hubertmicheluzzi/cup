@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-22T10:14:00Z",
+ "stand": "2026-10-26T21:38:55Z",
  "bewerb": {
   "id": "e",
   "name": "Bewerb E",
@@ -338,7 +338,7 @@
    "heimVerein": "TTK Naturfreunde Stadlau",
    "gastVerein": "TTK Eden",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 1,
    "punkteGast": 4
   },
