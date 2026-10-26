@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-23T20:28:45Z",
+ "stand": "2026-10-26T11:09:24Z",
  "bewerb": {
   "id": "damen",
   "name": "Damen",
@@ -100,7 +100,7 @@
    "heimVerein": "SG Sportklub - Flötzersteig",
    "gastVerein": "SC Hakoah",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 0,
    "punkteGast": 5
   },
