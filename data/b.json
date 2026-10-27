@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T07:29:29Z",
+ "stand": "2026-10-27T10:37:31Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -416,7 +416,7 @@
    "heimVerein": "TTK Naturfreunde Stadlau",
    "gastVerein": "SC Hakoah",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 3,
    "einzel": [
