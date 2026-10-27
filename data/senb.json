@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T07:29:29Z",
+ "stand": "2026-10-27T21:21:26Z",
  "bewerb": {
   "id": "senb",
   "name": "Senioren B",
@@ -118,7 +118,8 @@
      "saetze": "2:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455600,
@@ -178,7 +179,8 @@
      "saetze": "3:0",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455609,
@@ -238,7 +240,8 @@
      "saetze": "2:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455607,
@@ -298,7 +301,8 @@
      "saetze": "0:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455608,
@@ -358,7 +362,8 @@
      "saetze": "3:2",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455610,
@@ -418,7 +423,8 @@
      "saetze": "3:2",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455616,

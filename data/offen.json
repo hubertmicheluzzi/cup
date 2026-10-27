@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T07:29:29Z",
+ "stand": "2026-10-27T21:21:26Z",
  "bewerb": {
   "id": "offen",
   "name": "Offen",
@@ -79,7 +79,7 @@
     {
      "nr": "E",
      "art": "Einzel",
-     "heim": "Sam",
+     "heim": "Amir",
      "gast": "Andreas",
      "saetze": "3:0",
      "sieger": "H"
@@ -95,7 +95,7 @@
     {
      "nr": "C",
      "art": "Doppel",
-     "heim": "Sam / Matthias",
+     "heim": "Amir / Matthias",
      "gast": "Martin / Andreas",
      "saetze": "3:0",
      "sieger": "H"
@@ -103,12 +103,13 @@
     {
      "nr": "A",
      "art": "Einzel",
-     "heim": "Sam",
+     "heim": "Amir",
      "gast": "Martin",
      "saetze": "3:0",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455671,
@@ -168,7 +169,8 @@
      "saetze": "0:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455674,
@@ -228,7 +230,8 @@
      "saetze": "1:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455673,

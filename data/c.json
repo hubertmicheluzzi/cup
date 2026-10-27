@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T07:29:29Z",
+ "stand": "2026-10-27T21:21:26Z",
  "bewerb": {
   "id": "c",
   "name": "Bewerb C",
@@ -143,7 +143,8 @@
      "saetze": "0:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455409,
@@ -211,7 +212,8 @@
      "saetze": "2:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455410,
@@ -230,7 +232,8 @@
    "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 1,
-   "einzel": []
+   "einzel": [],
+   "einzelVersion": 2
   },
   {
    "gameId": 455413,
@@ -298,7 +301,8 @@
      "saetze": "1:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455408,
@@ -358,7 +362,8 @@
      "saetze": "3:2",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455411,
@@ -426,7 +431,8 @@
      "saetze": "3:2",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455412,
@@ -465,7 +471,7 @@
     {
      "nr": "3",
      "art": "Einzel",
-     "heim": "Martin",
+     "heim": "Siegfried",
      "gast": "Robert",
      "saetze": "3:1",
      "sieger": "H"
@@ -473,7 +479,7 @@
     {
      "nr": "4",
      "art": "Doppel",
-     "heim": "Maksym / Martin",
+     "heim": "Maksym / Siegfried",
      "gast": "Martin / Robert",
      "saetze": "3:1",
      "sieger": "H"
@@ -494,7 +500,8 @@
      "saetze": "3:2",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455416,
@@ -513,7 +520,8 @@
    "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 0,
-   "einzel": []
+   "einzel": [],
+   "einzelVersion": 2
   },
   {
    "gameId": 455419,
@@ -565,7 +573,8 @@
      "saetze": "1:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455418,
@@ -633,7 +642,8 @@
      "saetze": "0:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455421,
@@ -685,7 +695,8 @@
      "saetze": "3:0",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455415,
@@ -745,7 +756,8 @@
      "saetze": "3:2",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455420,
@@ -805,7 +817,8 @@
      "saetze": "3:0",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455417,
@@ -873,7 +886,8 @@
      "saetze": "0:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455425,

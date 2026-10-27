@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T10:37:31Z",
+ "stand": "2026-10-27T21:21:26Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -141,7 +141,8 @@
      "saetze": "0:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455791,
@@ -209,7 +210,8 @@
      "saetze": "3:1",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455792,
@@ -261,7 +263,8 @@
      "saetze": "2:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455795,
@@ -293,7 +296,7 @@
      "nr": "2",
      "art": "Einzel",
      "heim": "Thilo",
-     "gast": "Sam",
+     "gast": "Amir",
      "saetze": "1:3",
      "sieger": "G"
     },
@@ -309,11 +312,12 @@
      "nr": "4",
      "art": "Doppel",
      "heim": "Thilo / Andrea",
-     "gast": "Michael / Sam",
+     "gast": "Michael / Amir",
      "saetze": "1:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455794,
@@ -381,7 +385,8 @@
      "saetze": "0:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455800,
@@ -400,7 +405,8 @@
    "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 0,
-   "einzel": []
+   "einzel": [],
+   "einzelVersion": 2
   },
   {
    "gameId": 455864,
@@ -468,7 +474,8 @@
      "saetze": "2:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455799,
@@ -536,7 +543,8 @@
      "saetze": "3:0",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455736,
@@ -604,7 +612,8 @@
      "saetze": "1:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455737,
@@ -627,7 +636,7 @@
     {
      "nr": "1",
      "art": "Einzel",
-     "heim": "Sam",
+     "heim": "Amir",
      "gast": "Vincent",
      "saetze": "3:2",
      "sieger": "H"
@@ -651,7 +660,7 @@
     {
      "nr": "4",
      "art": "Doppel",
-     "heim": "Sam / Nico",
+     "heim": "Amir / Nico",
      "gast": "Vincent / Thomas",
      "saetze": "3:1",
      "sieger": "H"
@@ -659,12 +668,13 @@
     {
      "nr": "5",
      "art": "Einzel",
-     "heim": "Sam",
+     "heim": "Amir",
      "gast": "Michael",
      "saetze": "3:1",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455865,
@@ -679,10 +689,61 @@
    "gastName": "SG Post-Floridsdorf 2",
    "heimVerein": "SG Sportklub - Flötzersteig",
    "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 4,
+   "punkteGast": 2,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Nicolas",
+     "gast": "Andreas",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Natascha",
+     "gast": "Wolfgang",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Nila",
+     "gast": "Thilo",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Natascha / Nila",
+     "gast": "Thilo / Wolfgang",
+     "saetze": "1:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Nicolas",
+     "gast": "Wolfgang",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Natascha",
+     "gast": "Andreas",
+     "saetze": "3:0",
+     "sieger": "H"
+    }
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455743,

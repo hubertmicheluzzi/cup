@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T07:29:29Z",
+ "stand": "2026-10-27T21:21:26Z",
  "bewerb": {
   "id": "damen",
   "name": "Damen",
@@ -108,7 +108,8 @@
      "saetze": "3:1",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455098,
@@ -168,7 +169,8 @@
      "saetze": "3:1",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455097,
@@ -228,7 +230,8 @@
      "saetze": "2:3",
      "sieger": "G"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455096,

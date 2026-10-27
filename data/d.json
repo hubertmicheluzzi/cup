@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T07:29:29Z",
+ "stand": "2026-10-27T21:21:26Z",
  "bewerb": {
   "id": "d",
   "name": "Bewerb D",
@@ -67,7 +67,8 @@
    "bestaetigt": true,
    "punkteHeim": 0,
    "punkteGast": 4,
-   "einzel": []
+   "einzel": [],
+   "einzelVersion": 2
   },
   {
    "gameId": 455482,
@@ -86,7 +87,8 @@
    "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 0,
-   "einzel": []
+   "einzel": [],
+   "einzelVersion": 2
   },
   {
    "gameId": 455479,
@@ -154,7 +156,8 @@
      "saetze": "3:1",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455480,
@@ -222,7 +225,8 @@
      "saetze": "3:1",
      "sieger": "H"
     }
-   ]
+   ],
+   "einzelVersion": 2
   }
  ]
 }
