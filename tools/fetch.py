@@ -23,6 +23,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 KEY = os.environ.get("WTTV_API_KEY", "").strip()
 UA = {"User-Agent": "tt-cup/1 (github actions)"}
+# Erhöhen, wenn sich die Aufbereitung der Einzelspiele ändert: dann werden alle
+# Spielberichte einmal neu gelesen. 2 = erster Vorname statt letzter (27.10.2026).
+EINZEL_VERSION = 2
 
 
 def call(method, **params):
@@ -86,10 +89,22 @@ def _zeilen(fragment):
     return [re.sub(r"\s+", " ", z).strip() for z in t.split("\n") if z.strip()]
 
 
+# Namenszusätze vor dem Nachnamen ("van der Berg Jan" -> Nachname "van der Berg")
+NAMENS_PARTIKEL = {"van", "von", "vom", "der", "den", "de", "di", "da", "del", "la", "le", "ten", "ter", "zu"}
+
+
 def vorname(name):
-    """'Nachname Vorname' -> 'Vorname' (öffentlich nur Vornamen)."""
+    """XTTV 'Nachname Vorname [weitere Vornamen]' -> erster Vorname
+    (öffentlich nur Vornamen). 'Sanaei Mohammad Reza' -> 'Mohammad'.
+    Doppelte Nachnamen ohne Bindestrich sind nicht erkennbar."""
     teile = re.sub(r"\b(sen|jun)\.?$", "", (name or "").strip()).split()
-    return teile[-1] if teile else "?"
+    if not teile:
+        return "?"
+    i = 0
+    while i < len(teile) - 1 and teile[i].lower() in NAMENS_PARTIKEL:
+        i += 1
+    i += 1                      # Nachname überspringen
+    return teile[i] if i < len(teile) else teile[-1]
 
 
 def _spieler(td):
@@ -212,23 +227,29 @@ def main():
             alt_einzel = {}
             for og in (old or {}).get("spiele", []):
                 if og.get("einzel") is not None:
-                    alt_einzel[og.get("gameId")] = (og.get("punkteHeim"), og.get("punkteGast"), og["einzel"])
+                    alt_einzel[og.get("gameId")] = (og.get("punkteHeim"), og.get("punkteGast"), og["einzel"],
+                                                    og.get("einzelVersion"))
             neu_gelesen = 0
             for s in spiele:
                 if not (s["gespielt"] and s["gameId"]):
                     continue
                 vorher = alt_einzel.get(s["gameId"])
-                if vorher and vorher[0] == s["punkteHeim"] and vorher[1] == s["punkteGast"]:
+                if (vorher and vorher[0] == s["punkteHeim"] and vorher[1] == s["punkteGast"]
+                        and vorher[3] == EINZEL_VERSION):
                     s["einzel"] = vorher[2]
+                    s["einzelVersion"] = EINZEL_VERSION
                     continue
                 try:
                     s["einzel"] = einzelspiele(s["gameId"])
+                    s["einzelVersion"] = EINZEL_VERSION
                     neu_gelesen += 1
                     time.sleep(0.5)
                 except Exception as e:
                     print(f"  {b['name']}: Einzelspiele zu {s['heim']}-{s['gast']} nicht lesbar ({e})")
-                    if vorher:
+                    if vorher:  # lieber alter Stand als gar keiner
                         s["einzel"] = vorher[2]
+                        if vorher[3] is not None:
+                            s["einzelVersion"] = vorher[3]
 
             out = {"format": "tt-cup-wttv/1", "stand": stand, "bewerb": b, "mannschaften": teams, "spiele": spiele}
             cmp = dict(out); cmp.pop("stand")
