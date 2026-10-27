@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-23T10:06:59Z",
+ "stand": "2026-10-27T07:29:29Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -91,7 +91,57 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 3,
-   "punkteGast": 4
+   "punkteGast": 4,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Thomas",
+     "gast": "Zoltan",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Raffael",
+     "gast": "Artem",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Johannes",
+     "gast": "Maren",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Johannes / Raffael",
+     "gast": "Maren / Zoltan",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Raffael",
+     "gast": "Zoltan",
+     "saetze": "3:2",
+     "sieger": "H"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Thomas",
+     "gast": "Artem",
+     "saetze": "0:3",
+     "sieger": "G"
+    }
+   ]
   },
   {
    "gameId": 455791,
@@ -109,7 +159,57 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 4,
-   "punkteGast": 2
+   "punkteGast": 2,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Dawud",
+     "gast": "Christoph",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Peter",
+     "gast": "Johannes",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Jan",
+     "gast": "Werner",
+     "saetze": "3:2",
+     "sieger": "H"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Jan / Dawud",
+     "gast": "Werner / Christoph",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Peter",
+     "gast": "Christoph",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Dawud",
+     "gast": "Johannes",
+     "saetze": "3:1",
+     "sieger": "H"
+    }
+   ]
   },
   {
    "gameId": 455792,
@@ -127,7 +227,41 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 0,
-   "punkteGast": 4
+   "punkteGast": 4,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Amnon",
+     "gast": "Michael",
+     "saetze": "1:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Alexandre",
+     "gast": "Yilmaz",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Philipp",
+     "gast": "Johannes",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Alexandre / Philipp",
+     "gast": "Michael / Johannes",
+     "saetze": "2:3",
+     "sieger": "G"
+    }
+   ]
   },
   {
    "gameId": 455795,
@@ -145,7 +279,41 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 0,
-   "punkteGast": 4
+   "punkteGast": 4,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Grzegorz",
+     "gast": "Jona",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Thilo",
+     "gast": "Sam",
+     "saetze": "1:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Andrea",
+     "gast": "Michael",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Thilo / Andrea",
+     "gast": "Michael / Sam",
+     "saetze": "1:3",
+     "sieger": "G"
+    }
+   ]
   },
   {
    "gameId": 455794,
@@ -163,7 +331,57 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 2,
-   "punkteGast": 4
+   "punkteGast": 4,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Nicolas",
+     "gast": "Jürgen",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Natascha",
+     "gast": "Vincent",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Nila",
+     "gast": "Michael",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Nila / Natascha",
+     "gast": "Michael / Vincent",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Nicolas",
+     "gast": "Vincent",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Natascha",
+     "gast": "Jürgen",
+     "saetze": "0:3",
+     "sieger": "G"
+    }
+   ]
   },
   {
    "gameId": 455800,
@@ -181,7 +399,8 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 4,
-   "punkteGast": 0
+   "punkteGast": 0,
+   "einzel": []
   },
   {
    "gameId": 455864,
@@ -199,7 +418,57 @@
    "gespielt": true,
    "bestaetigt": false,
    "punkteHeim": 4,
-   "punkteGast": 3
+   "punkteGast": 3,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Helmut",
+     "gast": "Thomas",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Markus",
+     "gast": "Raffael",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Werner",
+     "gast": "Johannes",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Markus / Werner",
+     "gast": "Johannes / Raffael",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Markus",
+     "gast": "Thomas",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Helmut",
+     "gast": "Raffael",
+     "saetze": "2:3",
+     "sieger": "G"
+    }
+   ]
   },
   {
    "gameId": 455799,
@@ -217,7 +486,57 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 4,
-   "punkteGast": 3
+   "punkteGast": 3,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Balthasar",
+     "gast": "Lev",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Krystian",
+     "gast": "Andreas",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Martin",
+     "gast": "Josef",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Balthasar / Martin",
+     "gast": "Andreas / Josef",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Balthasar",
+     "gast": "Andreas",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Krystian",
+     "gast": "Lev",
+     "saetze": "3:0",
+     "sieger": "H"
+    }
+   ]
   },
   {
    "gameId": 455736,
@@ -235,7 +554,57 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 2,
-   "punkteGast": 4
+   "punkteGast": 4,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Artem",
+     "gast": "Michael",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Rick",
+     "gast": "Yilmaz",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Maren",
+     "gast": "Johannes",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Artem / Maren",
+     "gast": "Johannes / Michael",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Artem",
+     "gast": "Yilmaz",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Rick",
+     "gast": "Michael",
+     "saetze": "1:3",
+     "sieger": "G"
+    }
+   ]
   },
   {
    "gameId": 455737,
@@ -253,7 +622,49 @@
    "gespielt": true,
    "bestaetigt": false,
    "punkteHeim": 4,
-   "punkteGast": 1
+   "punkteGast": 1,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Sam",
+     "gast": "Vincent",
+     "saetze": "3:2",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Jona",
+     "gast": "Michael",
+     "saetze": "3:2",
+     "sieger": "H"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Nico",
+     "gast": "Thomas",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Sam / Nico",
+     "gast": "Vincent / Thomas",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Sam",
+     "gast": "Michael",
+     "saetze": "3:1",
+     "sieger": "H"
+    }
+   ]
   },
   {
    "gameId": 455865,

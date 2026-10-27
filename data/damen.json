@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-26T11:09:24Z",
+ "stand": "2026-10-27T07:29:29Z",
  "bewerb": {
   "id": "damen",
   "name": "Damen",
@@ -66,7 +66,49 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 1,
-   "punkteGast": 4
+   "punkteGast": 4,
+   "einzel": [
+    {
+     "nr": "D",
+     "art": "Einzel",
+     "heim": "Iris",
+     "gast": "Venera",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "E",
+     "art": "Einzel",
+     "heim": "Lena",
+     "gast": "Jelena",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "B",
+     "art": "Einzel",
+     "heim": "Lena",
+     "gast": "Venera",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "C",
+     "art": "Doppel",
+     "heim": "Iris / Lena",
+     "gast": "Jelena / Venera",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "A",
+     "art": "Einzel",
+     "heim": "Iris",
+     "gast": "Jelena",
+     "saetze": "3:1",
+     "sieger": "H"
+    }
+   ]
   },
   {
    "gameId": 455098,
@@ -84,7 +126,49 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 5,
-   "punkteGast": 0
+   "punkteGast": 0,
+   "einzel": [
+    {
+     "nr": "D",
+     "art": "Einzel",
+     "heim": "Katarina",
+     "gast": "Silvija",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "E",
+     "art": "Einzel",
+     "heim": "Susanne",
+     "gast": "Katharina",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "B",
+     "art": "Einzel",
+     "heim": "Katarina",
+     "gast": "Katharina",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "C",
+     "art": "Doppel",
+     "heim": "Susanne / Katarina",
+     "gast": "Silvija / Katharina",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "A",
+     "art": "Einzel",
+     "heim": "Susanne",
+     "gast": "Silvija",
+     "saetze": "3:1",
+     "sieger": "H"
+    }
+   ]
   },
   {
    "gameId": 455097,
@@ -102,7 +186,49 @@
    "gespielt": true,
    "bestaetigt": true,
    "punkteHeim": 0,
-   "punkteGast": 5
+   "punkteGast": 5,
+   "einzel": [
+    {
+     "nr": "D",
+     "art": "Einzel",
+     "heim": "Lilly",
+     "gast": "Claudia",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "E",
+     "art": "Einzel",
+     "heim": "Pia",
+     "gast": "Gabriele",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "B",
+     "art": "Einzel",
+     "heim": "Lilly",
+     "gast": "Gabriele",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "C",
+     "art": "Doppel",
+     "heim": "Lilly / Pia",
+     "gast": "Claudia / Gabriele",
+     "saetze": "1:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "A",
+     "art": "Einzel",
+     "heim": "Pia",
+     "gast": "Claudia",
+     "saetze": "2:3",
+     "sieger": "G"
+    }
+   ]
   },
   {
    "gameId": 455096,
