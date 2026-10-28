@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T21:21:26Z",
+ "stand": "2026-10-28T21:40:13Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -629,7 +629,7 @@
    "heimVerein": "ATUS Langenzersdorf",
    "gastVerein": "TTK Eden",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 1,
    "einzel": [
@@ -758,6 +758,24 @@
    "gastName": "SG Post-Floridsdorf 1",
    "heimVerein": "TT Campus Brigittenau Kontakt Wien",
    "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455871,
+   "runde": 3,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "20.11.2026",
+   "zeit": "19:00",
+   "heim": "LSV1",
+   "gast": "SKFL2",
+   "heimName": "Lehrersportverein 1",
+   "gastName": "Sportklub / Flötzersteig 2",
+   "heimVerein": "Lehrersportverein",
+   "gastVerein": "SG Sportklub - Flötzersteig",
    "gespielt": false,
    "bestaetigt": false,
    "punkteHeim": 0,

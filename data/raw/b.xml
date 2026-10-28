@@ -331,7 +331,7 @@
  <game>
   <game_id>455737</game_id>
   <played>1</played>
-  <confirmed>0</confirmed>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>2</round_nr>
   <round_name />
@@ -434,6 +434,42 @@
    <city>Wien</city>
    <latitude>48.245571</latitude>
    <longitude>16.37039</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455871</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>20.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55880</team_home_id>
+  <team_home_code>LSV1</team_home_code>
+  <team_home_short_name>Lehrersportverein 1</team_home_short_name>
+  <team_away_id>55745</team_away_id>
+  <team_away_code>SKFL2</team_away_code>
+  <team_away_short_name>Sportklub / Flötzersteig 2</team_away_short_name>
+  <club_home_id>425</club_home_id>
+  <club_home>Lehrersportverein</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1108</club_away_id>
+  <club_away>SG Sportklub - Flötzersteig</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Lehrersportverein neu</location>
+  <latitude>48.195896</latitude>
+  <longitude>16.315581</longitude>
+  <address>
+   <street>Nobilegasse 25</street>
+   <postal_code>1150</postal_code>
+   <city>Wien</city>
+   <latitude>48.195896</latitude>
+   <longitude>16.315581</longitude>
   </address>
  </game>
 </games_list>
