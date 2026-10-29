@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T21:21:26Z",
+ "stand": "2026-10-29T21:49:30Z",
  "bewerb": {
   "id": "offen",
   "name": "Offen",
@@ -246,10 +246,53 @@
    "gastName": "Hakoah 1",
    "heimVerein": "SG Sportklub - Flötzersteig",
    "gastVerein": "SC Hakoah",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 3,
+   "punkteGast": 2,
+   "einzel": [
+    {
+     "nr": "D",
+     "art": "Einzel",
+     "heim": "Nicolas",
+     "gast": "Yagshimyrat",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "E",
+     "art": "Einzel",
+     "heim": "Nikolaus",
+     "gast": "Gustav",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "B",
+     "art": "Einzel",
+     "heim": "Nikolaus",
+     "gast": "Yagshimyrat",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "C",
+     "art": "Doppel",
+     "heim": "Vladimir / Nikolaus",
+     "gast": "Yagshimyrat / Gustav",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "A",
+     "art": "Einzel",
+     "heim": "Nicolas",
+     "gast": "Gustav",
+     "saetze": "3:1",
+     "sieger": "H"
+    }
+   ],
+   "einzelVersion": 2
   }
  ]
 }
