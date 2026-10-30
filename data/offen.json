@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-29T21:49:30Z",
+ "stand": "2026-10-30T11:25:15Z",
  "bewerb": {
   "id": "offen",
   "name": "Offen",
@@ -247,7 +247,7 @@
    "heimVerein": "SG Sportklub - Flötzersteig",
    "gastVerein": "SC Hakoah",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 3,
    "punkteGast": 2,
    "einzel": [
