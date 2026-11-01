@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-29T21:49:30Z",
+ "stand": "2026-11-01T21:12:10Z",
  "bewerb": {
   "id": "damen",
   "name": "Damen",
@@ -247,7 +247,7 @@
    "heimVerein": "ATUS Langenzersdorf",
    "gastVerein": "ASVÖ TTC Olympic Wien",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 2,
    "punkteGast": 3,
    "einzel": [
