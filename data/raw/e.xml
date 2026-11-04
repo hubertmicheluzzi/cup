@@ -581,42 +581,6 @@
   </address>
   </game>
  <game>
-  <game_id>455553</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
-  <period_nr>1</period_nr>
-  <round_nr>3</round_nr>
-  <round_name />
-  <period_id>1</period_id>
-  <round_id>3</round_id>
-  <date>17.11.2026</date>
-  <time>19:00</time>
-  <team_home_id>55417</team_home_id>
-  <team_home_code>TT141</team_home_code>
-  <team_home_short_name>ASKÖ TT 14 1</team_home_short_name>
-  <team_away_id>55697</team_away_id>
-  <team_away_code>HAK1</team_away_code>
-  <team_away_short_name>Hakoah 1</team_away_short_name>
-  <club_home_id>423</club_home_id>
-  <club_home>ASKÖ Tischtennis Wien 14</club_home>
-  <club_home_state>Wien</club_home_state>
-  <club_away_id>418</club_away_id>
-  <club_away>SC Hakoah</club_away>
-  <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
-  <location>ASKÖ Sportzentrum Penzing</location>
-  <latitude>48.196632</latitude>
-  <longitude>16.297034</longitude>
-  <address>
-   <street>Marcusgasse 9</street>
-   <postal_code>1140</postal_code>
-   <city>Wien</city>
-   <latitude>48.196632</latitude>
-   <longitude>16.297034</longitude>
-  </address>
- </game>
- <game>
   <game_id>455551</game_id>
   <played>0</played>
   <confirmed>0</confirmed>
@@ -722,6 +686,42 @@
    <city>Wien</city>
    <latitude>48.193093</latitude>
    <longitude>16.346082</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455553</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>01.12.2026</date>
+  <time>19:00</time>
+  <team_home_id>55417</team_home_id>
+  <team_home_code>TT141</team_home_code>
+  <team_home_short_name>ASKÖ TT 14 1</team_home_short_name>
+  <team_away_id>55697</team_away_id>
+  <team_away_code>HAK1</team_away_code>
+  <team_away_short_name>Hakoah 1</team_away_short_name>
+  <club_home_id>423</club_home_id>
+  <club_home>ASKÖ Tischtennis Wien 14</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>418</club_away_id>
+  <club_away>SC Hakoah</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>ASKÖ Sportzentrum Penzing</location>
+  <latitude>48.196632</latitude>
+  <longitude>16.297034</longitude>
+  <address>
+   <street>Marcusgasse 9</street>
+   <postal_code>1140</postal_code>
+   <city>Wien</city>
+   <latitude>48.196632</latitude>
+   <longitude>16.297034</longitude>
   </address>
  </game>
 </games_list>

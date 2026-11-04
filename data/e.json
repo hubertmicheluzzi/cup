@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T21:21:26Z",
+ "stand": "2026-11-04T13:00:25Z",
  "bewerb": {
   "id": "e",
   "name": "Bewerb E",
@@ -1010,24 +1010,6 @@
    "einzelVersion": 2
   },
   {
-   "gameId": 455553,
-   "runde": 3,
-   "rundeName": "",
-   "periode": 1,
-   "datum": "17.11.2026",
-   "zeit": "19:00",
-   "heim": "TT141",
-   "gast": "HAK1",
-   "heimName": "ASKÖ TT 14 1",
-   "gastName": "Hakoah 1",
-   "heimVerein": "ASKÖ Tischtennis Wien 14",
-   "gastVerein": "SC Hakoah",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
-  },
-  {
    "gameId": 455551,
    "runde": 3,
    "rundeName": "",
@@ -1076,6 +1058,24 @@
    "gastName": "Kontakt 1",
    "heimVerein": "Union Döbling",
    "gastVerein": "TT Campus Brigittenau Kontakt Wien",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455553,
+   "runde": 3,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "01.12.2026",
+   "zeit": "19:00",
+   "heim": "TT141",
+   "gast": "HAK1",
+   "heimName": "ASKÖ TT 14 1",
+   "gastName": "Hakoah 1",
+   "heimVerein": "ASKÖ Tischtennis Wien 14",
+   "gastVerein": "SC Hakoah",
    "gespielt": false,
    "bestaetigt": false,
    "punkteHeim": 0,
