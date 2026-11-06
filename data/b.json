@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-28T21:40:13Z",
+ "stand": "2026-11-06T12:58:19Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -690,7 +690,7 @@
    "heimVerein": "SG Sportklub - Flötzersteig",
    "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 2,
    "einzel": [
