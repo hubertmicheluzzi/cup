@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-06T12:58:19Z",
+ "stand": "2026-11-11T12:44:29Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -758,6 +758,24 @@
    "gastName": "SG Post-Floridsdorf 1",
    "heimVerein": "TT Campus Brigittenau Kontakt Wien",
    "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455807,
+   "runde": 3,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "18.11.2026",
+   "zeit": "19:00",
+   "heim": "EDEN1",
+   "gast": "NFS1",
+   "heimName": "TTK Eden 1",
+   "gastName": "Naturfreunde Stadlau 1",
+   "heimVerein": "TTK Eden",
+   "gastVerein": "TTK Naturfreunde Stadlau",
    "gespielt": false,
    "bestaetigt": false,
    "punkteHeim": 0,
