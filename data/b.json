@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-14T21:31:20Z",
+ "stand": "2026-11-16T13:41:14Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -786,7 +786,7 @@
    "runde": 3,
    "rundeName": "",
    "periode": 1,
-   "datum": "20.11.2026",
+   "datum": "04.12.2026",
    "zeit": "19:00",
    "heim": "LSV1",
    "gast": "SKFL2",
