@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-16T13:41:14Z",
+ "stand": "2026-11-17T23:50:59Z",
  "bewerb": {
   "id": "b",
   "name": "Bewerb B",
@@ -758,10 +758,61 @@
    "gastName": "SG Post-Floridsdorf 1",
    "heimVerein": "TT Campus Brigittenau Kontakt Wien",
    "gastVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 4,
+   "punkteGast": 3,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Andreas",
+     "gast": "Christoph",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Lev",
+     "gast": "Oliver",
+     "saetze": "3:2",
+     "sieger": "H"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Artan",
+     "gast": "Werner",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Artan / Andreas",
+     "gast": "Werner / Christoph",
+     "saetze": "1:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Lev",
+     "gast": "Christoph",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Andreas",
+     "gast": "Oliver",
+     "saetze": "2:3",
+     "sieger": "G"
+    }
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455807,
