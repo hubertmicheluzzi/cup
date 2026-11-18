@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-18T14:01:47Z",
+ "stand": "2026-11-18T23:24:07Z",
  "bewerb": {
   "id": "c",
   "name": "Bewerb C",
@@ -921,7 +921,7 @@
    "heimVerein": "SG Post Sport Verein Wien - ASKÖ Floridsdorf",
    "gastVerein": "Union Döbling",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 3,
    "punkteGast": 4,
    "einzel": [
@@ -989,10 +989,61 @@
    "gastName": "Langenzersdorf 1",
    "heimVerein": "TTK Naturfreunde Stadlau",
    "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 4,
+   "punkteGast": 3,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Georg",
+     "gast": "Tim",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Boris",
+     "gast": "Simon",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Peter",
+     "gast": "Theodor",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Peter / Georg",
+     "gast": "Tim / Theodor",
+     "saetze": "2:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Georg",
+     "gast": "Simon",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "6",
+     "art": "Einzel",
+     "heim": "Boris",
+     "gast": "Tim",
+     "saetze": "3:1",
+     "sieger": "H"
+    }
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455424,
