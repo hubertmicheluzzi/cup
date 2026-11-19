@@ -617,6 +617,42 @@
   </address>
   </game>
  <game>
+  <game_id>455554</game_id>
+  <played>1</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>3</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>3</round_id>
+  <date>19.11.2026</date>
+  <time>19:00</time>
+  <team_home_id>55342</team_home_id>
+  <team_home_code>DOEB1</team_home_code>
+  <team_home_short_name>Union Döbling 1</team_home_short_name>
+  <team_away_id>55129</team_away_id>
+  <team_away_code>KONT1</team_away_code>
+  <team_away_short_name>Kontakt 1</team_away_short_name>
+  <club_home_id>394</club_home_id>
+  <club_home>Union Döbling</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>148</club_away_id>
+  <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>4</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>Liniengasse</location>
+  <latitude>48.193093</latitude>
+  <longitude>16.346082</longitude>
+  <address>
+   <street>Liniengasse 13</street>
+   <postal_code>1060</postal_code>
+   <city>Wien</city>
+   <latitude>48.193093</latitude>
+   <longitude>16.346082</longitude>
+  </address>
+  </game>
+ <game>
   <game_id>455552</game_id>
   <played>0</played>
   <confirmed>0</confirmed>
@@ -650,42 +686,6 @@
    <city>Wien</city>
    <latitude>48.229447</latitude>
    <longitude>16.450807</longitude>
-  </address>
- </game>
- <game>
-  <game_id>455554</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
-  <period_nr>1</period_nr>
-  <round_nr>3</round_nr>
-  <round_name />
-  <period_id>1</period_id>
-  <round_id>3</round_id>
-  <date>19.11.2026</date>
-  <time>19:00</time>
-  <team_home_id>55342</team_home_id>
-  <team_home_code>DOEB1</team_home_code>
-  <team_home_short_name>Union Döbling 1</team_home_short_name>
-  <team_away_id>55129</team_away_id>
-  <team_away_code>KONT1</team_away_code>
-  <team_away_short_name>Kontakt 1</team_away_short_name>
-  <club_home_id>394</club_home_id>
-  <club_home>Union Döbling</club_home>
-  <club_home_state>Wien</club_home_state>
-  <club_away_id>148</club_away_id>
-  <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
-  <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
-  <location>Liniengasse</location>
-  <latitude>48.193093</latitude>
-  <longitude>16.346082</longitude>
-  <address>
-   <street>Liniengasse 13</street>
-   <postal_code>1060</postal_code>
-   <city>Wien</city>
-   <latitude>48.193093</latitude>
-   <longitude>16.346082</longitude>
   </address>
  </game>
  <game>

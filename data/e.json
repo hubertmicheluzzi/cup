@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-19T14:27:29Z",
+ "stand": "2026-11-19T23:35:47Z",
  "bewerb": {
   "id": "e",
   "name": "Bewerb E",
@@ -1079,24 +1079,6 @@
    "einzelVersion": 2
   },
   {
-   "gameId": 455552,
-   "runde": 3,
-   "rundeName": "",
-   "periode": 1,
-   "datum": "19.11.2026",
-   "zeit": "19:00",
-   "heim": "NFS1",
-   "gast": "LENZ1",
-   "heimName": "Naturfreunde Stadlau 1",
-   "gastName": "Langenzersdorf 1",
-   "heimVerein": "TTK Naturfreunde Stadlau",
-   "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
-   "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
-  },
-  {
    "gameId": 455554,
    "runde": 3,
    "rundeName": "",
@@ -1109,6 +1091,59 @@
    "gastName": "Kontakt 1",
    "heimVerein": "Union Döbling",
    "gastVerein": "TT Campus Brigittenau Kontakt Wien",
+   "gespielt": true,
+   "bestaetigt": false,
+   "punkteHeim": 4,
+   "punkteGast": 0,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Tobias",
+     "gast": "Alexander",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "David",
+     "gast": "Benjamin",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Antoni",
+     "gast": "Pour",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Antoni / Tobias",
+     "gast": "Pour / Benjamin",
+     "saetze": "3:0",
+     "sieger": "H"
+    }
+   ],
+   "einzelVersion": 2
+  },
+  {
+   "gameId": 455552,
+   "runde": 3,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "19.11.2026",
+   "zeit": "19:00",
+   "heim": "NFS1",
+   "gast": "LENZ1",
+   "heimName": "Naturfreunde Stadlau 1",
+   "gastName": "Langenzersdorf 1",
+   "heimVerein": "TTK Naturfreunde Stadlau",
+   "gastVerein": "ATUS Langenzersdorf",
    "gespielt": false,
    "bestaetigt": false,
    "punkteHeim": 0,
