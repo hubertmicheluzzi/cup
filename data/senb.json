@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-27T21:21:26Z",
+ "stand": "2026-11-20T23:05:50Z",
  "bewerb": {
   "id": "senb",
   "name": "Senioren B",
@@ -439,10 +439,53 @@
    "gastName": "Langenzersdorf 2",
    "heimVerein": "SC Hakoah",
    "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 5,
+   "punkteGast": 0,
+   "einzel": [
+    {
+     "nr": "D",
+     "art": "Einzel",
+     "heim": "Andrea",
+     "gast": "Anton",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "E",
+     "art": "Einzel",
+     "heim": "Andreas",
+     "gast": "Franz",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "B",
+     "art": "Einzel",
+     "heim": "Andreas",
+     "gast": "Anton",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "C",
+     "art": "Doppel",
+     "heim": "Andreas / Andrea",
+     "gast": "Franz / Anton",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "A",
+     "art": "Einzel",
+     "heim": "Andrea",
+     "gast": "Franz",
+     "saetze": "3:2",
+     "sieger": "H"
+    }
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455615,

@@ -510,7 +510,7 @@
   </game>
  <game>
   <game_id>455425</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>3</round_nr>
@@ -532,7 +532,7 @@
   <club_away>TT Campus Brigittenau Kontakt Wien</club_away>
   <club_away_state>Wien</club_away_state>
   <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_away>4</matches_won_away>
   <location>TTC Spar neu</location>
   <latitude>48.283068</latitude>
   <longitude>16.414364</longitude>
@@ -543,7 +543,7 @@
    <latitude>48.283068</latitude>
    <longitude>16.414364</longitude>
   </address>
- </game>
+  </game>
  <game>
   <game_id>455423</game_id>
   <played>1</played>
@@ -618,7 +618,7 @@
   </game>
  <game>
   <game_id>455424</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>3</round_nr>
@@ -640,7 +640,7 @@
   <club_away>Lehrersportverein</club_away>
   <club_away_state>Wien</club_away_state>
   <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_away>4</matches_won_away>
   <location>Olympic VS Bunteschule / Turnhalle</location>
   <latitude>48.231458</latitude>
   <longitude>16.363322</longitude>
@@ -651,5 +651,5 @@
    <latitude>48.231458</latitude>
    <longitude>16.363322</longitude>
   </address>
- </game>
+  </game>
 </games_list>
