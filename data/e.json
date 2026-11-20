@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-19T23:35:47Z",
+ "stand": "2026-11-20T14:03:03Z",
  "bewerb": {
   "id": "e",
   "name": "Bewerb E",
@@ -1092,7 +1092,7 @@
    "heimVerein": "Union Döbling",
    "gastVerein": "TT Campus Brigittenau Kontakt Wien",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 0,
    "einzel": [
@@ -1144,10 +1144,53 @@
    "gastName": "Langenzersdorf 1",
    "heimVerein": "TTK Naturfreunde Stadlau",
    "gastVerein": "ATUS Langenzersdorf",
-   "gespielt": false,
+   "gespielt": true,
    "bestaetigt": false,
-   "punkteHeim": 0,
-   "punkteGast": 0
+   "punkteHeim": 4,
+   "punkteGast": 1,
+   "einzel": [
+    {
+     "nr": "1",
+     "art": "Einzel",
+     "heim": "Atilla",
+     "gast": "Felix",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "2",
+     "art": "Einzel",
+     "heim": "Erik",
+     "gast": "Stefan",
+     "saetze": "0:3",
+     "sieger": "G"
+    },
+    {
+     "nr": "3",
+     "art": "Einzel",
+     "heim": "Michael",
+     "gast": "Gerhard",
+     "saetze": "3:0",
+     "sieger": "H"
+    },
+    {
+     "nr": "4",
+     "art": "Doppel",
+     "heim": "Michael / Erik",
+     "gast": "Gerhard / Stefan",
+     "saetze": "3:1",
+     "sieger": "H"
+    },
+    {
+     "nr": "5",
+     "art": "Einzel",
+     "heim": "Atilla",
+     "gast": "Stefan",
+     "saetze": "3:1",
+     "sieger": "H"
+    }
+   ],
+   "einzelVersion": 2
   },
   {
    "gameId": 455553,
