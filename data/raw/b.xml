@@ -438,8 +438,8 @@
   </game>
  <game>
   <game_id>455807</game_id>
-  <played>0</played>
-  <confirmed>0</confirmed>
+  <played>1</played>
+  <confirmed>1</confirmed>
   <period_nr>1</period_nr>
   <round_nr>3</round_nr>
   <round_name />
@@ -459,8 +459,8 @@
   <club_away_id>427</club_away_id>
   <club_away>TTK Naturfreunde Stadlau</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>4</matches_won_home>
+  <matches_won_away>2</matches_won_away>
   <location>TTK Eden</location>
   <latitude>48.248976</latitude>
   <longitude>16.415176</longitude>
@@ -471,7 +471,7 @@
    <latitude>48.248976</latitude>
    <longitude>16.415176</longitude>
   </address>
- </game>
+  </game>
  <game>
   <game_id>455871</game_id>
   <played>0</played>
