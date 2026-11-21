@@ -258,7 +258,7 @@
   </game>
  <game>
   <game_id>455615</game_id>
-  <played>0</played>
+  <played>1</played>
   <confirmed>0</confirmed>
   <period_nr>1</period_nr>
   <round_nr>3</round_nr>
@@ -279,8 +279,8 @@
   <club_away_id>394</club_away_id>
   <club_away>Union Döbling</club_away>
   <club_away_state>Wien</club_away_state>
-  <matches_won_home>0</matches_won_home>
-  <matches_won_away>0</matches_won_away>
+  <matches_won_home>3</matches_won_home>
+  <matches_won_away>2</matches_won_away>
   <location>POST SV Wien</location>
   <latitude>48.265071</latitude>
   <longitude>16.399919</longitude>
@@ -291,5 +291,5 @@
    <latitude>48.265071</latitude>
    <longitude>16.399919</longitude>
   </address>
- </game>
+  </game>
 </games_list>

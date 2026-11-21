@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-20T23:05:50Z",
+ "stand": "2026-11-21T13:29:37Z",
  "bewerb": {
   "id": "c",
   "name": "Bewerb C",
@@ -903,7 +903,7 @@
    "heimVerein": "Spielgemeinschaft TTC Spar/Hobby Centre Vienna",
    "gastVerein": "TT Campus Brigittenau Kontakt Wien",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 0,
    "punkteGast": 4,
    "einzel": [
