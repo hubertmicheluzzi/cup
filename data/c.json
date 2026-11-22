@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-21T13:29:37Z",
+ "stand": "2026-11-22T22:28:22Z",
  "bewerb": {
   "id": "c",
   "name": "Bewerb C",
@@ -1009,7 +1009,7 @@
    "heimVerein": "TTK Naturfreunde Stadlau",
    "gastVerein": "ATUS Langenzersdorf",
    "gespielt": true,
-   "bestaetigt": false,
+   "bestaetigt": true,
    "punkteHeim": 4,
    "punkteGast": 3,
    "einzel": [
