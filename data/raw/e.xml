@@ -724,4 +724,112 @@
    <longitude>16.297034</longitude>
   </address>
  </game>
+ <game>
+  <game_id>455559</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>4</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>4</round_id>
+  <date>17.12.2026</date>
+  <time>19:00</time>
+  <team_home_id>55296</team_home_id>
+  <team_home_code>LENZ3</team_home_code>
+  <team_home_short_name>Langenzersdorf 3</team_home_short_name>
+  <team_away_id>55659</team_away_id>
+  <team_away_code>SGPF1</team_away_code>
+  <team_away_short_name>SG Post-Floridsdorf 1</team_away_short_name>
+  <club_home_id>224</club_home_id>
+  <club_home>ATUS Langenzersdorf</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>1351</club_away_id>
+  <club_away>SG Post Sport Verein Wien - ASKÖ Floridsdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>NMS Langenzersdorf</location>
+  <latitude>48.308377</latitude>
+  <longitude>16.355333</longitude>
+  <address>
+   <street>Klosterneuburgerstraße 12</street>
+   <postal_code>2103</postal_code>
+   <city>Langenzersdorf</city>
+   <latitude>48.308377</latitude>
+   <longitude>16.355333</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455561</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>4</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>4</round_id>
+  <date>17.12.2026</date>
+  <time>19:00</time>
+  <team_home_id>55521</team_home_id>
+  <team_home_code>EDEN2</team_home_code>
+  <team_home_short_name>TTK Eden 2</team_home_short_name>
+  <team_away_id>55294</team_away_id>
+  <team_away_code>LENZ1</team_away_code>
+  <team_away_short_name>Langenzersdorf 1</team_away_short_name>
+  <club_home_id>413</club_home_id>
+  <club_home>TTK Eden</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>224</club_away_id>
+  <club_away>ATUS Langenzersdorf</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>TTK Eden</location>
+  <latitude>48.248976</latitude>
+  <longitude>16.415176</longitude>
+  <address>
+   <street>An der Schanze 7</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.248976</latitude>
+   <longitude>16.415176</longitude>
+  </address>
+ </game>
+ <game>
+  <game_id>455560</game_id>
+  <played>0</played>
+  <confirmed>0</confirmed>
+  <period_nr>1</period_nr>
+  <round_nr>4</round_nr>
+  <round_name />
+  <period_id>1</period_id>
+  <round_id>4</round_id>
+  <date>18.12.2026</date>
+  <time>19:00</time>
+  <team_home_id>55520</team_home_id>
+  <team_home_code>EDEN1</team_home_code>
+  <team_home_short_name>TTK Eden 1</team_home_short_name>
+  <team_away_id>55849</team_away_id>
+  <team_away_code>OLYM1</team_away_code>
+  <team_away_short_name>Olympic 1</team_away_short_name>
+  <club_home_id>413</club_home_id>
+  <club_home>TTK Eden</club_home>
+  <club_home_state>Wien</club_home_state>
+  <club_away_id>199</club_away_id>
+  <club_away>ASVÖ TTC Olympic Wien</club_away>
+  <club_away_state>Wien</club_away_state>
+  <matches_won_home>0</matches_won_home>
+  <matches_won_away>0</matches_won_away>
+  <location>TTK Eden</location>
+  <latitude>48.248976</latitude>
+  <longitude>16.415176</longitude>
+  <address>
+   <street>An der Schanze 7</street>
+   <postal_code>1210</postal_code>
+   <city>Wien</city>
+   <latitude>48.248976</latitude>
+   <longitude>16.415176</longitude>
+  </address>
+ </game>
 </games_list>

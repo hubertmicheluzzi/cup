@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-11-01T21:12:10Z",
+ "stand": "2026-11-25T15:38:44Z",
  "bewerb": {
   "id": "damen",
   "name": "Damen",
@@ -293,6 +293,78 @@
     }
    ],
    "einzelVersion": 2
+  },
+  {
+   "gameId": 455112,
+   "runde": 4,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.12.2026",
+   "zeit": "19:00",
+   "heim": "HAK1",
+   "gast": "LENZ3",
+   "heimName": "Hakoah 1",
+   "gastName": "Langenzersdorf 3",
+   "heimVerein": "SC Hakoah",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455111,
+   "runde": 4,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "18.12.2026",
+   "zeit": "19:00",
+   "heim": "LENZ1",
+   "gast": "OLYM1",
+   "heimName": "Langenzersdorf 1",
+   "gastName": "Olympic 1",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "ASVÖ TTC Olympic Wien",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455113,
+   "runde": 4,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "18.12.2026",
+   "zeit": "19:00",
+   "heim": "LENZ4",
+   "gast": "SKFL1",
+   "heimName": "Langenzersdorf 4",
+   "gastName": "Sportklub / Flötzersteig 1",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "SG Sportklub - Flötzersteig",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455114,
+   "runde": 4,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "18.12.2026",
+   "zeit": "19:00",
+   "heim": "LENZ2",
+   "gast": "EDEN1",
+   "heimName": "Langenzersdorf 2",
+   "gastName": "TTK Eden 1",
+   "heimVerein": "ATUS Langenzersdorf",
+   "gastVerein": "TTK Eden",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
   }
  ]
 }

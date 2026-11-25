@@ -1,6 +1,6 @@
 {
  "format": "tt-cup-wttv/1",
- "stand": "2026-10-30T11:25:15Z",
+ "stand": "2026-11-25T15:38:44Z",
  "bewerb": {
   "id": "offen",
   "name": "Offen",
@@ -293,6 +293,78 @@
     }
    ],
    "einzelVersion": 2
+  },
+  {
+   "gameId": 455690,
+   "runde": 4,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "15.12.2026",
+   "zeit": "19:00",
+   "heim": "OLYM1",
+   "gast": "KONT1",
+   "heimName": "Olympic 1",
+   "gastName": "Kontakt 1",
+   "heimVerein": "ASVÖ TTC Olympic Wien",
+   "gastVerein": "TT Campus Brigittenau Kontakt Wien",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455689,
+   "runde": 4,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "16.12.2026",
+   "zeit": "19:00",
+   "heim": "LSV1",
+   "gast": "HAK1",
+   "heimName": "Lehrersportverein 1",
+   "gastName": "Hakoah 1",
+   "heimVerein": "Lehrersportverein",
+   "gastVerein": "SC Hakoah",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455687,
+   "runde": 4,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "17.12.2026",
+   "zeit": "19:00",
+   "heim": "EDEN1",
+   "gast": "LENZ1",
+   "heimName": "TTK Eden 1",
+   "gastName": "Langenzersdorf 1",
+   "heimVerein": "TTK Eden",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
+  },
+  {
+   "gameId": 455688,
+   "runde": 4,
+   "rundeName": "",
+   "periode": 1,
+   "datum": "17.12.2026",
+   "zeit": "19:00",
+   "heim": "SKFL1",
+   "gast": "LENZ2",
+   "heimName": "Sportklub / Flötzersteig 1",
+   "gastName": "Langenzersdorf 2",
+   "heimVerein": "SG Sportklub - Flötzersteig",
+   "gastVerein": "ATUS Langenzersdorf",
+   "gespielt": false,
+   "bestaetigt": false,
+   "punkteHeim": 0,
+   "punkteGast": 0
   }
  ]
 }
